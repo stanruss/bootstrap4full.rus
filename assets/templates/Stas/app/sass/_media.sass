@@ -1,0 +1,23 @@
+@import "vars"
+@import "mixins/mixin.scss"
+@import "mixins/mixins"
+@include media-breakpoint-up(sm)  
+	.sticky-top
+		height: 100vh
+
+
+@include media-breakpoint-down(sm)
+	.loginLogin
+		.loginLoginFieldset
+			width: 250px
+			float: none
+			text-align: center
+			+push-auto
+		.loginUsernameLabel, .loginPasswordLabel  
+			width: 100%
+			display: block
+	.first-container
+		height: 185px
+@include media-breakpoint-up(sm)
+	.first-container
+		height: 185px

@@ -1,0 +1,36 @@
+@import "../libs/bootstrap/scss/my-variables"
+@import "../libs/bootstrap/scss/bootstrap"
+@import "mixins/mixin.scss"
+@import "mixins/mixins"
+@import "fonts"
+@import "vars"
+@import "media"
+.navbar-nav
+	li
+		a
+			&:hover
+				text-decoration: none
+				color: #fd7e14
+		&.active a
+			color: #fd7e14
+
+.navbar-toggler
+	right: 20px
+	top: 20px
+	left: auto
+.loginLoginFieldset
+	width: 530px
+.loginUsernameLabel, .loginPasswordLabel  
+	width: 40%
+	display: inline-block
+.header
+	background-image: url(../img/head-bg.png)
+	background-position: top center
+.sec-container
+	.row
+		background-image: url(../img/menu-bg.png)
+		background-position: top center
+	.nav li
+		padding: 
+			top: 6px
+			bottom: 6px

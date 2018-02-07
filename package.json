@@ -1,0 +1,40 @@
+{
+  "name": "mysite.rus",
+  "version": "1.0.0",
+  "description": "modx 2.5.8",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanruss/mysite.rus.git"
+  },
+  "author": "Stanruss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanruss/mysite.rus/issues"
+  },
+  "homepage": "https://github.com/stanruss/mysite.rus#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "bower": "^1.8.2",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.3.1",
+    "npm-check-updates": "^2.14.0",
+    "popper.js": "^1.12.9",
+    "postcss-assets": "^5.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-short": "^4.1.0"
+  }
+}
