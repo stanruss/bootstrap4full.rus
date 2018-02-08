@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 07 2018 г., 11:02
+-- Время создания: Фев 08 2018 г., 10:54
 -- Версия сервера: 5.6.34
 -- Версия PHP: 5.6.29
 
@@ -3272,7 +3272,145 @@ INSERT INTO `modx_manager_log` (`id`, `user`, `occurred`, `action`, `classKey`, 
 (1825, 1, '2018-02-07 10:58:36', 'resource_update', 'modResource', '2'),
 (1826, 1, '2018-02-07 11:00:22', 'resource_create', 'modWebLink', '20'),
 (1827, 1, '2018-02-07 11:00:30', 'resource_update', 'modResource', '20'),
-(1828, 1, '2018-02-07 11:00:39', 'resource_update', 'modResource', '20');
+(1828, 1, '2018-02-07 11:00:39', 'resource_update', 'modResource', '20'),
+(1829, 1, '2018-02-08 08:12:37', 'login', 'modContext', 'mgr'),
+(1830, 1, '2018-02-08 08:13:15', 'chunk_update', 'modChunk', '13'),
+(1831, 1, '2018-02-08 08:13:16', 'propertyset_update_from_element', 'modChunk', '13'),
+(1832, 1, '2018-02-08 08:14:20', 'chunk_update', 'modChunk', '13'),
+(1833, 1, '2018-02-08 08:14:20', 'propertyset_update_from_element', 'modChunk', '13'),
+(1834, 1, '2018-02-08 08:15:14', 'chunk_update', 'modChunk', '13'),
+(1835, 1, '2018-02-08 08:15:15', 'propertyset_update_from_element', 'modChunk', '13'),
+(1836, 1, '2018-02-08 08:15:45', 'chunk_update', 'modChunk', '13'),
+(1837, 1, '2018-02-08 08:15:46', 'propertyset_update_from_element', 'modChunk', '13'),
+(1838, 1, '2018-02-08 08:22:44', 'chunk_update', 'modChunk', '72'),
+(1839, 1, '2018-02-08 08:22:44', 'propertyset_update_from_element', 'modChunk', '72'),
+(1840, 1, '2018-02-08 08:23:06', 'chunk_update', 'modChunk', '72'),
+(1841, 1, '2018-02-08 08:23:06', 'propertyset_update_from_element', 'modChunk', '72'),
+(1842, 1, '2018-02-08 08:23:26', 'chunk_update', 'modChunk', '72'),
+(1843, 1, '2018-02-08 08:23:26', 'propertyset_update_from_element', 'modChunk', '72'),
+(1844, 1, '2018-02-08 09:25:51', 'chunk_update', 'modChunk', '13'),
+(1845, 1, '2018-02-08 09:25:52', 'propertyset_update_from_element', 'modChunk', '13'),
+(1846, 1, '2018-02-08 09:38:35', 'chunk_update', 'modChunk', '13'),
+(1847, 1, '2018-02-08 09:38:36', 'propertyset_update_from_element', 'modChunk', '13'),
+(1848, 1, '2018-02-08 09:38:59', 'chunk_update', 'modChunk', '13'),
+(1849, 1, '2018-02-08 09:39:00', 'propertyset_update_from_element', 'modChunk', '13'),
+(1850, 1, '2018-02-08 09:40:24', 'chunk_update', 'modChunk', '13'),
+(1851, 1, '2018-02-08 09:40:24', 'propertyset_update_from_element', 'modChunk', '13'),
+(1852, 1, '2018-02-08 09:40:51', 'chunk_update', 'modChunk', '13'),
+(1853, 1, '2018-02-08 09:40:51', 'propertyset_update_from_element', 'modChunk', '13'),
+(1854, 1, '2018-02-08 09:41:08', 'chunk_update', 'modChunk', '13'),
+(1855, 1, '2018-02-08 09:41:08', 'propertyset_update_from_element', 'modChunk', '13'),
+(1856, 1, '2018-02-08 09:44:50', 'chunk_update', 'modChunk', '72'),
+(1857, 1, '2018-02-08 09:44:50', 'propertyset_update_from_element', 'modChunk', '72'),
+(1858, 1, '2018-02-08 09:46:09', 'chunk_update', 'modChunk', '72'),
+(1859, 1, '2018-02-08 09:46:09', 'propertyset_update_from_element', 'modChunk', '72'),
+(1860, 1, '2018-02-08 09:49:08', 'chunk_update', 'modChunk', '72'),
+(1861, 1, '2018-02-08 09:49:08', 'propertyset_update_from_element', 'modChunk', '72'),
+(1862, 1, '2018-02-08 09:50:00', 'chunk_update', 'modChunk', '72'),
+(1863, 1, '2018-02-08 09:50:00', 'propertyset_update_from_element', 'modChunk', '72'),
+(1864, 1, '2018-02-08 09:50:23', 'chunk_update', 'modChunk', '72'),
+(1865, 1, '2018-02-08 09:50:24', 'propertyset_update_from_element', 'modChunk', '72'),
+(1866, 1, '2018-02-08 09:50:45', 'chunk_update', 'modChunk', '72'),
+(1867, 1, '2018-02-08 09:50:45', 'propertyset_update_from_element', 'modChunk', '72'),
+(1868, 1, '2018-02-08 09:51:22', 'chunk_update', 'modChunk', '72'),
+(1869, 1, '2018-02-08 09:51:22', 'propertyset_update_from_element', 'modChunk', '72'),
+(1870, 1, '2018-02-08 09:51:46', 'chunk_update', 'modChunk', '72'),
+(1871, 1, '2018-02-08 09:51:46', 'propertyset_update_from_element', 'modChunk', '72'),
+(1872, 1, '2018-02-08 09:52:46', 'chunk_update', 'modChunk', '72'),
+(1873, 1, '2018-02-08 09:52:46', 'propertyset_update_from_element', 'modChunk', '72'),
+(1874, 1, '2018-02-08 09:53:36', 'chunk_update', 'modChunk', '72'),
+(1875, 1, '2018-02-08 09:53:36', 'propertyset_update_from_element', 'modChunk', '72'),
+(1876, 1, '2018-02-08 09:55:54', 'chunk_update', 'modChunk', '72'),
+(1877, 1, '2018-02-08 09:55:54', 'propertyset_update_from_element', 'modChunk', '72'),
+(1878, 1, '2018-02-08 09:56:46', 'chunk_update', 'modChunk', '72'),
+(1879, 1, '2018-02-08 09:56:47', 'propertyset_update_from_element', 'modChunk', '72'),
+(1880, 1, '2018-02-08 09:59:55', 'chunk_update', 'modChunk', '72'),
+(1881, 1, '2018-02-08 09:59:55', 'propertyset_update_from_element', 'modChunk', '72'),
+(1882, 1, '2018-02-08 10:01:04', 'chunk_update', 'modChunk', '72'),
+(1883, 1, '2018-02-08 10:01:04', 'propertyset_update_from_element', 'modChunk', '72'),
+(1884, 1, '2018-02-08 10:01:31', 'chunk_update', 'modChunk', '72'),
+(1885, 1, '2018-02-08 10:01:32', 'propertyset_update_from_element', 'modChunk', '72'),
+(1886, 1, '2018-02-08 10:02:45', 'chunk_update', 'modChunk', '72'),
+(1887, 1, '2018-02-08 10:02:45', 'propertyset_update_from_element', 'modChunk', '72'),
+(1888, 1, '2018-02-08 10:03:01', 'chunk_update', 'modChunk', '72'),
+(1889, 1, '2018-02-08 10:03:01', 'propertyset_update_from_element', 'modChunk', '72'),
+(1890, 1, '2018-02-08 10:03:37', 'chunk_update', 'modChunk', '72'),
+(1891, 1, '2018-02-08 10:03:37', 'propertyset_update_from_element', 'modChunk', '72'),
+(1892, 1, '2018-02-08 10:12:13', 'chunk_update', 'modChunk', '72'),
+(1893, 1, '2018-02-08 10:13:27', 'chunk_update', 'modChunk', '72'),
+(1894, 1, '2018-02-08 10:13:27', 'propertyset_update_from_element', 'modChunk', '72'),
+(1895, 1, '2018-02-08 10:14:56', 'chunk_update', 'modChunk', '72'),
+(1896, 1, '2018-02-08 10:14:57', 'propertyset_update_from_element', 'modChunk', '72'),
+(1897, 1, '2018-02-08 10:15:59', 'chunk_update', 'modChunk', '72'),
+(1898, 1, '2018-02-08 10:16:00', 'propertyset_update_from_element', 'modChunk', '72'),
+(1899, 1, '2018-02-08 10:16:47', 'chunk_update', 'modChunk', '72'),
+(1900, 1, '2018-02-08 10:16:47', 'propertyset_update_from_element', 'modChunk', '72'),
+(1901, 1, '2018-02-08 10:16:53', 'chunk_update', 'modChunk', '72'),
+(1902, 1, '2018-02-08 10:16:53', 'propertyset_update_from_element', 'modChunk', '72'),
+(1903, 1, '2018-02-08 10:17:21', 'chunk_update', 'modChunk', '72'),
+(1904, 1, '2018-02-08 10:17:22', 'propertyset_update_from_element', 'modChunk', '72'),
+(1905, 1, '2018-02-08 10:18:14', 'chunk_update', 'modChunk', '72'),
+(1906, 1, '2018-02-08 10:18:14', 'propertyset_update_from_element', 'modChunk', '72'),
+(1907, 1, '2018-02-08 10:18:37', 'chunk_update', 'modChunk', '72'),
+(1908, 1, '2018-02-08 10:18:37', 'propertyset_update_from_element', 'modChunk', '72'),
+(1909, 1, '2018-02-08 10:19:15', 'chunk_update', 'modChunk', '72'),
+(1910, 1, '2018-02-08 10:19:15', 'propertyset_update_from_element', 'modChunk', '72'),
+(1911, 1, '2018-02-08 10:21:06', 'chunk_update', 'modChunk', '72'),
+(1912, 1, '2018-02-08 10:21:06', 'propertyset_update_from_element', 'modChunk', '72'),
+(1913, 1, '2018-02-08 10:21:41', 'chunk_update', 'modChunk', '72'),
+(1914, 1, '2018-02-08 10:21:41', 'propertyset_update_from_element', 'modChunk', '72'),
+(1915, 1, '2018-02-08 10:22:08', 'chunk_update', 'modChunk', '72'),
+(1916, 1, '2018-02-08 10:22:08', 'propertyset_update_from_element', 'modChunk', '72'),
+(1917, 1, '2018-02-08 10:28:30', 'chunk_update', 'modChunk', '72'),
+(1918, 1, '2018-02-08 10:32:22', 'chunk_update', 'modChunk', '72'),
+(1919, 1, '2018-02-08 10:32:23', 'propertyset_update_from_element', 'modChunk', '72'),
+(1920, 1, '2018-02-08 10:32:52', 'chunk_update', 'modChunk', '72'),
+(1921, 1, '2018-02-08 10:32:52', 'propertyset_update_from_element', 'modChunk', '72'),
+(1922, 1, '2018-02-08 10:33:40', 'chunk_update', 'modChunk', '72'),
+(1923, 1, '2018-02-08 10:33:40', 'propertyset_update_from_element', 'modChunk', '72'),
+(1924, 1, '2018-02-08 10:34:00', 'chunk_update', 'modChunk', '72'),
+(1925, 1, '2018-02-08 10:34:00', 'propertyset_update_from_element', 'modChunk', '72'),
+(1926, 1, '2018-02-08 10:35:07', 'chunk_update', 'modChunk', '72'),
+(1927, 1, '2018-02-08 10:35:08', 'propertyset_update_from_element', 'modChunk', '72'),
+(1928, 1, '2018-02-08 10:35:18', 'chunk_update', 'modChunk', '72'),
+(1929, 1, '2018-02-08 10:35:18', 'propertyset_update_from_element', 'modChunk', '72'),
+(1930, 1, '2018-02-08 10:35:55', 'chunk_update', 'modChunk', '72'),
+(1931, 1, '2018-02-08 10:35:55', 'propertyset_update_from_element', 'modChunk', '72'),
+(1932, 1, '2018-02-08 10:36:41', 'chunk_update', 'modChunk', '72'),
+(1933, 1, '2018-02-08 10:36:41', 'propertyset_update_from_element', 'modChunk', '72'),
+(1934, 1, '2018-02-08 10:37:54', 'chunk_update', 'modChunk', '72'),
+(1935, 1, '2018-02-08 10:37:55', 'propertyset_update_from_element', 'modChunk', '72'),
+(1936, 1, '2018-02-08 10:38:21', 'chunk_update', 'modChunk', '72'),
+(1937, 1, '2018-02-08 10:38:21', 'propertyset_update_from_element', 'modChunk', '72'),
+(1938, 1, '2018-02-08 10:38:41', 'chunk_update', 'modChunk', '72'),
+(1939, 1, '2018-02-08 10:38:42', 'propertyset_update_from_element', 'modChunk', '72'),
+(1940, 1, '2018-02-08 10:39:00', 'chunk_update', 'modChunk', '72'),
+(1941, 1, '2018-02-08 10:39:00', 'propertyset_update_from_element', 'modChunk', '72'),
+(1942, 1, '2018-02-08 10:39:27', 'chunk_update', 'modChunk', '72'),
+(1943, 1, '2018-02-08 10:39:27', 'propertyset_update_from_element', 'modChunk', '72'),
+(1944, 1, '2018-02-08 10:40:03', 'chunk_update', 'modChunk', '72'),
+(1945, 1, '2018-02-08 10:40:03', 'propertyset_update_from_element', 'modChunk', '72'),
+(1946, 1, '2018-02-08 10:40:34', 'chunk_update', 'modChunk', '72'),
+(1947, 1, '2018-02-08 10:40:34', 'propertyset_update_from_element', 'modChunk', '72'),
+(1948, 1, '2018-02-08 10:41:53', 'chunk_create', 'modChunk', '77'),
+(1949, 1, '2018-02-08 10:42:51', 'chunk_update', 'modChunk', '77'),
+(1950, 1, '2018-02-08 10:42:52', 'propertyset_update_from_element', 'modChunk', '77'),
+(1951, 1, '2018-02-08 10:43:20', 'chunk_update', 'modChunk', '77'),
+(1952, 1, '2018-02-08 10:43:20', 'propertyset_update_from_element', 'modChunk', '77'),
+(1953, 1, '2018-02-08 10:44:04', 'chunk_update', 'modChunk', '77'),
+(1954, 1, '2018-02-08 10:44:04', 'propertyset_update_from_element', 'modChunk', '77'),
+(1955, 1, '2018-02-08 10:44:18', 'chunk_update', 'modChunk', '77'),
+(1956, 1, '2018-02-08 10:44:18', 'propertyset_update_from_element', 'modChunk', '77'),
+(1957, 1, '2018-02-08 10:45:11', 'chunk_update', 'modChunk', '77'),
+(1958, 1, '2018-02-08 10:45:12', 'propertyset_update_from_element', 'modChunk', '77'),
+(1959, 1, '2018-02-08 10:45:39', 'chunk_update', 'modChunk', '77'),
+(1960, 1, '2018-02-08 10:45:40', 'propertyset_update_from_element', 'modChunk', '77'),
+(1961, 1, '2018-02-08 10:51:07', 'chunk_update', 'modChunk', '72'),
+(1962, 1, '2018-02-08 10:51:07', 'propertyset_update_from_element', 'modChunk', '72'),
+(1963, 1, '2018-02-08 10:51:36', 'chunk_update', 'modChunk', '72'),
+(1964, 1, '2018-02-08 10:51:37', 'propertyset_update_from_element', 'modChunk', '72'),
+(1965, 1, '2018-02-08 10:53:19', 'chunk_update', 'modChunk', '72'),
+(1966, 1, '2018-02-08 10:53:20', 'propertyset_update_from_element', 'modChunk', '72');
 
 -- --------------------------------------------------------
 
@@ -3776,7 +3914,7 @@ CREATE TABLE `modx_session` (
 --
 
 INSERT INTO `modx_session` (`id`, `access`, `data`) VALUES
-('01cv3ghdg4r2u2n0d54sfkhm22', 1517990531, 'modx.user.0.resourceGroups|a:1:{s:3:\"mgr\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"mgr\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}modx.user.contextTokens|a:0:{}');
+('h044tajcs43f3vo57c639505e0', 1518076413, 'modx.user.contextTokens|a:0:{}');
 
 -- --------------------------------------------------------
 
@@ -3921,7 +4059,8 @@ INSERT INTO `modx_site_htmlsnippets` (`id`, `source`, `property_preprocess`, `na
 (41, 1, 0, 'Main', '', 0, 22, 0, '', 0, 'a:0:{}', 0, ''),
 (42, 1, 0, 'Footer', '', 0, 22, 0, '<footer class=\"page-footer\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col l6 s12\">\n        <h5 class=\"white-text\">Content</h5>\n        <p class=\"grey-text text-lighten-4\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, voluptate, beatae! Tempore inventore possimus est eligendi, ea, quidem quo. Odio repudiandae nulla facilis, vel, incidunt sit veniam beatae commodi quibusdam non! Voluptas animi nesciunt dolor accusantium quos voluptatum tenetur nulla labore exercitationem nihil nemo facilis officia ipsum, reprehenderit. Ex, libero.</p>\n      </div>\n      <div class=\"col l6 offset-12 s12\">\n        <h5 class=\"white-text\">Links</h5>\n        <ul>\n          <li class=\"grey-text text-lighten-3\">link1</li>\n          <li class=\"grey-text text-lighten-3\">link2</li>\n          <li class=\"grey-text text-lighten-3\">link3</li>\n          <li class=\"grey-text text-lighten-3\">link4</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n  <div class=\"footer-copyright\">\n    <div class=\"container\">\n      <div class=\"row\">@copyStanruss\n  <a href=\"#!\" class=\"grey-text text-lighten-3 right\">More links</a></div>\n    </div>\n  </div>\n</footer>', 0, 'a:0:{}', 0, ''),
 (44, 1, 0, 'Scripts', '', 0, 22, 0, '  <script src=\"[[++assets_url]]templates/Stas/app/js/libs.min.js\"></script>\n  \n \n\n', 0, 'a:0:{}', 0, ''),
-(72, 0, 0, 'Content', '', 0, 22, 0, '\n<div class=\"container-fluid px-0\">\n  <div class=\"header\">\n  <div class=\"row first-container mx-0 d-flex align-items-center\">\n    <div class=\"col-12 col-md-3\">\n      <a class=\"navbar-brand py-md-5 py-3\" href=\"#\">Poecilotheria.ru</a>\n    </div>\n    <div class=\"col-12 col-md-9\">\n      [[!Login? &loginTpl=`lgnLoginTpl` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`1` &logoutResourceId=`1`]]\n      </div>\n  </div>\n  </div>\n \n</div>\n<div class=\"container-fluid sec-container\">\n   <div class=\"row border-top \">\n        <div class=\"col\">\n          <nav class=\"navbar navbar-expand-md navbar-dark d-block d-md-none\">\n  \n  <button class=\"navbar-toggler fixed-top fixed-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    [[Wayfinder?\n						&startId=`0`\n						&level=`1`\n						&outerTpl=`tpl.Wayfinder.outer`\n						&parentRowTpl=`tpl.Wayfinder.row.parent`\n						&innerRowTpl=`tpl.Wayfinder.row.inner`\n						&rowTpl=`tpl.Wayfinder.row`\n						&outerClass=`d-sm-block d-lg-none`\n						&rowClass=`nav-item nav-link`\n						\n					]]\n    \n  </div>\n  </nav>\n  <div class=\"nav justify-content-md-center\">\n  [[Wayfinder?\n						&startId=`0`\n						&level=`1`\n						&outerTpl=`tpl.Wayfinder.outer`\n						&parentRowTpl=`tpl.Wayfinder.row.parent`\n						&innerRowTpl=`tpl.Wayfinder.row.inner`\n						&rowTpl=`tpl.Wayfinder.row`\n						&outerClass=`nav d-none d-md-flex`\n						&rowClass=`nav-item nav-link`\n						\n					]]\n</div>\n        </div>\n      </div>\n</div>\n\n\n', 0, 'a:0:{}', 0, '');
+(72, 0, 0, 'Content', '', 0, 22, 0, '<div class=\"container-fluid px-0\">\n  <div class=\"header\">\n  <div class=\"row first-container mx-0 d-flex align-items-center\">\n    <div class=\"col-12 col-md-3\">\n      <a class=\"navbar-brand py-md-5 py-3\" href=\"#\">Poecilotheria.ru</a>\n    </div>\n    <div class=\"col-12 col-md-9\">\n      [[!Login? &loginTpl=`lgnLoginTpl` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`1` &logoutResourceId=`1`]]\n      </div>\n  </div>\n  </div>\n \n</div>\n<div class=\"container-fluid sec-container\">\n   <div class=\"row border-top border-bottom\">\n        <div class=\"col\">\n          <nav class=\"navbar navbar-expand-md navbar-dark d-block d-md-none\">\n  \n  <button class=\"navbar-toggler fixed-top fixed-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    [[Wayfinder?\n						&startId=`0`\n						&level=`1`\n						&outerTpl=`tpl.Wayfinder.outer`\n						&parentRowTpl=`tpl.Wayfinder.row.parent`\n						&innerRowTpl=`tpl.Wayfinder.row.inner`\n						&rowTpl=`tpl.Wayfinder.row`\n						&outerClass=`d-sm-block d-lg-none`\n						&rowClass=`nav-item nav-link`\n						\n					]]\n    \n  </div>\n  </nav>\n  <div class=\"nav justify-content-md-center\">\n  [[Wayfinder?\n						&startId=`0`\n						&level=`1`\n						&outerTpl=`tpl.Wayfinder.outer`\n						&parentRowTpl=`tpl.Wayfinder.row.parent`\n						&innerRowTpl=`tpl.Wayfinder.row.inner`\n						&rowTpl=`tpl.Wayfinder.row`\n						&outerClass=`nav d-none d-md-flex`\n						&rowClass=`nav-item nav-link`\n						\n					]]\n</div>\n        </div>\n      </div>\n</div>\n<div class=\"container-fluid thd-container px-0\">\n  <div class=\"row\">\n    <div class=\"col-md-8\">\n      <div id=\"carouselExampleIndicators\" class=\"carousel my-3 slide\" data-ride=\"carousel\">\n  \n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img class=\"d-block\" src=\"assets/templates/Stas/app/img/car1.jpg\" alt=\"First slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block\" src=\"assets/templates/Stas/app/img/car2.jpg\" alt=\"Second slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block\" src=\"assets/templates/Stas/app/img/car3.jpg\" alt=\"Third slide\">\n    </div>\n  </div>\n  <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\n    <div class=\"text-dark\" aria-hidden=\"true\"><span class=\"arrow-left\"></span></div>\n    <span class=\"sr-only\">Previous</span>\n  </a>\n  <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\n    <div class=\"text-dark\" aria-hidden=\"true\"><span class=\"arrow-right\"></span></div>\n    <span class=\"sr-only\">Next</span>\n  </a>\n</div>\n    </div>\n    <div class=\"col-md-4 d-none d-md-block\">\n      <div class=\"blog-sidebar\">\n            <h5 class=\"text-center mt-5 text-light\">Последние статьи.</h5>\n           [[!getResources? \n  &parents=`2`\n  &hideContainers=`1`\n  &tpl=`latestPostsTpl`\n  &limit=`3`\n  &sortby=`publishedon`\n]] \n            \n        </div>\n    </div>\n  </div>\n</div>\n\n', 0, 'a:0:{}', 0, ''),
+(77, 0, 0, 'latestPostsTpl', '', 0, 7, 0, '<li class=\"text-light list-unstyled\">\n  <a href=\"[[~[[+id]]]]\">[[+pagetitle]]</a>\n  [[+publishedon:notempty=`<br /><small><span>Опубликовано - [[+publishedon:strtotime:date=`%d. %m. %Y`]]</span></small> `]]\n</li>', 0, 'a:0:{}', 0, '');
 
 -- --------------------------------------------------------
 
@@ -5172,7 +5311,7 @@ CREATE TABLE `modx_user_attributes` (
 --
 
 INSERT INTO `modx_user_attributes` (`id`, `internalKey`, `fullname`, `email`, `phone`, `mobilephone`, `blocked`, `blockeduntil`, `blockedafter`, `logincount`, `lastlogin`, `thislogin`, `failedlogincount`, `sessionid`, `dob`, `gender`, `address`, `country`, `city`, `state`, `zip`, `fax`, `photo`, `comment`, `website`, `extended`) VALUES
-(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 34, 1517989695, 1517989939, 0, 'b4m78941q94j0u3ke53hrv9fr1', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
+(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 35, 1517989939, 1518066757, 0, '38oedp5ps038edumplaehtdnh6', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
 (2, 2, '', 'stan1978@gmail.com', '', '', 0, 0, 0, 3, 1507027219, 1516255911, 0, '9lkho41cebf6ndm6o7a5ovqgg0', 0, 1, '', '', 'Тверь', '', '19000', '', '', '', '', '[]');
 
 -- --------------------------------------------------------
@@ -6309,7 +6448,7 @@ ALTER TABLE `modx_lexicon_entries`
 -- AUTO_INCREMENT для таблицы `modx_manager_log`
 --
 ALTER TABLE `modx_manager_log`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1829;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1967;
 --
 -- AUTO_INCREMENT для таблицы `modx_media_sources`
 --
@@ -6384,7 +6523,7 @@ ALTER TABLE `modx_site_content`
 -- AUTO_INCREMENT для таблицы `modx_site_htmlsnippets`
 --
 ALTER TABLE `modx_site_htmlsnippets`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
 --
 -- AUTO_INCREMENT для таблицы `modx_site_plugins`
 --

@@ -5,14 +5,7 @@
 @import "fonts"
 @import "vars"
 @import "media"
-.navbar-nav
-	li
-		a
-			&:hover
-				text-decoration: none
-				color: #fd7e14
-		&.active a
-			color: #fd7e14
+
 
 .navbar-toggler
 	right: 20px
@@ -26,11 +19,31 @@
 .header
 	background-image: url(../img/head-bg.png)
 	background-position: top center
+	background-repeat: no-repeat
+	background-color: #2c4743
 .sec-container
 	.row
 		background-image: url(../img/menu-bg.png)
 		background-position: top center
 	.nav li
-		padding: 
-			top: 6px
-			bottom: 6px
+		padding: 0
+		a
+			display: block
+			padding: 6px 16px
+.carousel 
+	background-image: none
+	background-color: #fff
+
+	.carousel-item
+		height: 297px		
+		img
+			height: 100%
+			+push-auto	
+.thd-container
+	background-image: url(../img/header-bg.png)
+	background-repeat: no-repeat
+	background-position: top center
+.arrow-right
+	+css-triangle(#cacaca, right, 10px)
+.arrow-left
+	+css-triangle(#cacaca, left, 10px)
