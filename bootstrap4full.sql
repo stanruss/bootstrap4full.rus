@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.6.5.2
+-- version 4.7.7
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 08 2018 г., 10:54
--- Версия сервера: 5.6.34
--- Версия PHP: 5.6.29
+-- Время создания: Фев 08 2018 г., 18:13
+-- Версия сервера: 5.6.38
+-- Версия PHP: 5.5.38
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -3410,7 +3412,22 @@ INSERT INTO `modx_manager_log` (`id`, `user`, `occurred`, `action`, `classKey`, 
 (1963, 1, '2018-02-08 10:51:36', 'chunk_update', 'modChunk', '72'),
 (1964, 1, '2018-02-08 10:51:37', 'propertyset_update_from_element', 'modChunk', '72'),
 (1965, 1, '2018-02-08 10:53:19', 'chunk_update', 'modChunk', '72'),
-(1966, 1, '2018-02-08 10:53:20', 'propertyset_update_from_element', 'modChunk', '72');
+(1966, 1, '2018-02-08 10:53:20', 'propertyset_update_from_element', 'modChunk', '72'),
+(1967, 1, '2018-02-08 16:56:17', 'login', 'modContext', 'mgr'),
+(1968, 1, '2018-02-08 16:59:39', 'chunk_update', 'modChunk', '72'),
+(1969, 1, '2018-02-08 16:59:39', 'propertyset_update_from_element', 'modChunk', '72'),
+(1970, 1, '2018-02-08 18:08:35', 'chunk_update', 'modChunk', '72'),
+(1971, 1, '2018-02-08 18:08:35', 'propertyset_update_from_element', 'modChunk', '72'),
+(1972, 1, '2018-02-08 18:10:02', 'chunk_update', 'modChunk', '72'),
+(1973, 1, '2018-02-08 18:10:03', 'propertyset_update_from_element', 'modChunk', '72'),
+(1974, 1, '2018-02-08 18:10:45', 'chunk_update', 'modChunk', '72'),
+(1975, 1, '2018-02-08 18:10:45', 'propertyset_update_from_element', 'modChunk', '72'),
+(1976, 1, '2018-02-08 18:11:30', 'chunk_update', 'modChunk', '72'),
+(1977, 1, '2018-02-08 18:11:31', 'propertyset_update_from_element', 'modChunk', '72'),
+(1978, 1, '2018-02-08 18:11:58', 'chunk_update', 'modChunk', '72'),
+(1979, 1, '2018-02-08 18:11:59', 'propertyset_update_from_element', 'modChunk', '72'),
+(1980, 1, '2018-02-08 18:12:25', 'chunk_update', 'modChunk', '72'),
+(1981, 1, '2018-02-08 18:12:25', 'propertyset_update_from_element', 'modChunk', '72');
 
 -- --------------------------------------------------------
 
@@ -3914,7 +3931,7 @@ CREATE TABLE `modx_session` (
 --
 
 INSERT INTO `modx_session` (`id`, `access`, `data`) VALUES
-('h044tajcs43f3vo57c639505e0', 1518076413, 'modx.user.contextTokens|a:0:{}');
+('jemh826ikas03b20mtcu961fq1', 1518102774, 'modx.user.contextTokens|a:0:{}');
 
 -- --------------------------------------------------------
 
@@ -4059,7 +4076,7 @@ INSERT INTO `modx_site_htmlsnippets` (`id`, `source`, `property_preprocess`, `na
 (41, 1, 0, 'Main', '', 0, 22, 0, '', 0, 'a:0:{}', 0, ''),
 (42, 1, 0, 'Footer', '', 0, 22, 0, '<footer class=\"page-footer\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col l6 s12\">\n        <h5 class=\"white-text\">Content</h5>\n        <p class=\"grey-text text-lighten-4\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, voluptate, beatae! Tempore inventore possimus est eligendi, ea, quidem quo. Odio repudiandae nulla facilis, vel, incidunt sit veniam beatae commodi quibusdam non! Voluptas animi nesciunt dolor accusantium quos voluptatum tenetur nulla labore exercitationem nihil nemo facilis officia ipsum, reprehenderit. Ex, libero.</p>\n      </div>\n      <div class=\"col l6 offset-12 s12\">\n        <h5 class=\"white-text\">Links</h5>\n        <ul>\n          <li class=\"grey-text text-lighten-3\">link1</li>\n          <li class=\"grey-text text-lighten-3\">link2</li>\n          <li class=\"grey-text text-lighten-3\">link3</li>\n          <li class=\"grey-text text-lighten-3\">link4</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n  <div class=\"footer-copyright\">\n    <div class=\"container\">\n      <div class=\"row\">@copyStanruss\n  <a href=\"#!\" class=\"grey-text text-lighten-3 right\">More links</a></div>\n    </div>\n  </div>\n</footer>', 0, 'a:0:{}', 0, ''),
 (44, 1, 0, 'Scripts', '', 0, 22, 0, '  <script src=\"[[++assets_url]]templates/Stas/app/js/libs.min.js\"></script>\n  \n \n\n', 0, 'a:0:{}', 0, ''),
-(72, 0, 0, 'Content', '', 0, 22, 0, '<div class=\"container-fluid px-0\">\n  <div class=\"header\">\n  <div class=\"row first-container mx-0 d-flex align-items-center\">\n    <div class=\"col-12 col-md-3\">\n      <a class=\"navbar-brand py-md-5 py-3\" href=\"#\">Poecilotheria.ru</a>\n    </div>\n    <div class=\"col-12 col-md-9\">\n      [[!Login? &loginTpl=`lgnLoginTpl` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`1` &logoutResourceId=`1`]]\n      </div>\n  </div>\n  </div>\n \n</div>\n<div class=\"container-fluid sec-container\">\n   <div class=\"row border-top border-bottom\">\n        <div class=\"col\">\n          <nav class=\"navbar navbar-expand-md navbar-dark d-block d-md-none\">\n  \n  <button class=\"navbar-toggler fixed-top fixed-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    [[Wayfinder?\n						&startId=`0`\n						&level=`1`\n						&outerTpl=`tpl.Wayfinder.outer`\n						&parentRowTpl=`tpl.Wayfinder.row.parent`\n						&innerRowTpl=`tpl.Wayfinder.row.inner`\n						&rowTpl=`tpl.Wayfinder.row`\n						&outerClass=`d-sm-block d-lg-none`\n						&rowClass=`nav-item nav-link`\n						\n					]]\n    \n  </div>\n  </nav>\n  <div class=\"nav justify-content-md-center\">\n  [[Wayfinder?\n						&startId=`0`\n						&level=`1`\n						&outerTpl=`tpl.Wayfinder.outer`\n						&parentRowTpl=`tpl.Wayfinder.row.parent`\n						&innerRowTpl=`tpl.Wayfinder.row.inner`\n						&rowTpl=`tpl.Wayfinder.row`\n						&outerClass=`nav d-none d-md-flex`\n						&rowClass=`nav-item nav-link`\n						\n					]]\n</div>\n        </div>\n      </div>\n</div>\n<div class=\"container-fluid thd-container px-0\">\n  <div class=\"row\">\n    <div class=\"col-md-8\">\n      <div id=\"carouselExampleIndicators\" class=\"carousel my-3 slide\" data-ride=\"carousel\">\n  \n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img class=\"d-block\" src=\"assets/templates/Stas/app/img/car1.jpg\" alt=\"First slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block\" src=\"assets/templates/Stas/app/img/car2.jpg\" alt=\"Second slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block\" src=\"assets/templates/Stas/app/img/car3.jpg\" alt=\"Third slide\">\n    </div>\n  </div>\n  <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\n    <div class=\"text-dark\" aria-hidden=\"true\"><span class=\"arrow-left\"></span></div>\n    <span class=\"sr-only\">Previous</span>\n  </a>\n  <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\n    <div class=\"text-dark\" aria-hidden=\"true\"><span class=\"arrow-right\"></span></div>\n    <span class=\"sr-only\">Next</span>\n  </a>\n</div>\n    </div>\n    <div class=\"col-md-4 d-none d-md-block\">\n      <div class=\"blog-sidebar\">\n            <h5 class=\"text-center mt-5 text-light\">Последние статьи.</h5>\n           [[!getResources? \n  &parents=`2`\n  &hideContainers=`1`\n  &tpl=`latestPostsTpl`\n  &limit=`3`\n  &sortby=`publishedon`\n]] \n            \n        </div>\n    </div>\n  </div>\n</div>\n\n', 0, 'a:0:{}', 0, ''),
+(72, 0, 0, 'Content', '', 0, 22, 0, '<div class=\"container-fluid px-0\">\n  <div class=\"header\">\n  <div class=\"row first-container mx-0 d-flex align-items-center\">\n    <div class=\"col-12 col-md-3\">\n      <a class=\"navbar-brand py-md-5 py-3\" href=\"#\">Poecilotheria.ru</a>\n    </div>\n    <div class=\"col-12 col-md-9\">\n      [[!Login? &loginTpl=`lgnLoginTpl` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`1` &logoutResourceId=`1`]]\n      </div>\n  </div>\n  </div>\n \n</div>\n<div class=\"container-fluid sec-container\">\n   <div class=\"row border-top border-bottom\">\n        <div class=\"col\">\n          <nav class=\"navbar navbar-expand-md navbar-dark d-block d-md-none\">\n  \n  <button class=\"navbar-toggler ml-3 mb-3\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    [[Wayfinder?\n						&startId=`0`\n						&level=`1`\n						&outerTpl=`tpl.Wayfinder.outer`\n						&parentRowTpl=`tpl.Wayfinder.row.parent`\n						&innerRowTpl=`tpl.Wayfinder.row.inner`\n						&rowTpl=`tpl.Wayfinder.row`\n						&outerClass=`d-sm-block d-lg-none`\n						&rowClass=`nav-item nav-link`\n						\n					]]\n    \n  </div>\n  </nav>\n  <div class=\"nav justify-content-md-center\">\n  [[Wayfinder?\n						&startId=`0`\n						&level=`1`\n						&outerTpl=`tpl.Wayfinder.outer`\n						&parentRowTpl=`tpl.Wayfinder.row.parent`\n						&innerRowTpl=`tpl.Wayfinder.row.inner`\n						&rowTpl=`tpl.Wayfinder.row`\n						&outerClass=`nav d-none d-md-flex`\n						&rowClass=`nav-item nav-link`\n						\n					]]\n</div>\n        </div>\n      </div>\n</div>\n<div class=\"container-fluid thd-container px-0\">\n  <div class=\"row mx-0\">\n    <div class=\"col-md-8\">\n      <div id=\"carouselExampleIndicators\" class=\"carousel my-3 slide\" data-ride=\"carousel\">\n  \n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img class=\"d-block\" src=\"assets/templates/Stas/app/img/car1.jpg\" alt=\"First slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block\" src=\"assets/templates/Stas/app/img/car2.jpg\" alt=\"Second slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block\" src=\"assets/templates/Stas/app/img/car3.jpg\" alt=\"Third slide\">\n    </div>\n  </div>\n  <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\n    <div class=\"text-dark\" aria-hidden=\"true\"><span class=\"arrow-left\"></span></div>\n    <span class=\"sr-only\">Previous</span>\n  </a>\n  <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\n    <div class=\"text-dark\" aria-hidden=\"true\"><span class=\"arrow-right\"></span></div>\n    <span class=\"sr-only\">Next</span>\n  </a>\n</div>\n    </div>\n    <div class=\"col-md-4 d-none d-md-block\">\n      <div class=\"blog-sidebar\">\n            <h5 class=\"text-center mt-5 text-light\">Последние статьи.</h5>\n           [[!getResources? \n  &parents=`2`\n  &hideContainers=`1`\n  &tpl=`latestPostsTpl`\n  &limit=`3`\n  &sortby=`publishedon`\n]] \n            \n        </div>\n    </div>\n  </div>\n</div>\n\n', 0, 'a:0:{}', 0, ''),
 (77, 0, 0, 'latestPostsTpl', '', 0, 7, 0, '<li class=\"text-light list-unstyled\">\n  <a href=\"[[~[[+id]]]]\">[[+pagetitle]]</a>\n  [[+publishedon:notempty=`<br /><small><span>Опубликовано - [[+publishedon:strtotime:date=`%d. %m. %Y`]]</span></small> `]]\n</li>', 0, 'a:0:{}', 0, '');
 
 -- --------------------------------------------------------
@@ -5311,7 +5328,7 @@ CREATE TABLE `modx_user_attributes` (
 --
 
 INSERT INTO `modx_user_attributes` (`id`, `internalKey`, `fullname`, `email`, `phone`, `mobilephone`, `blocked`, `blockeduntil`, `blockedafter`, `logincount`, `lastlogin`, `thislogin`, `failedlogincount`, `sessionid`, `dob`, `gender`, `address`, `country`, `city`, `state`, `zip`, `fax`, `photo`, `comment`, `website`, `extended`) VALUES
-(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 35, 1517989939, 1518066757, 0, '38oedp5ps038edumplaehtdnh6', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
+(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 36, 1518066757, 1518098177, 0, 'cippcptgts8mkapn6qbatnodi1', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
 (2, 2, '', 'stan1978@gmail.com', '', '', 0, 0, 0, 3, 1507027219, 1516255911, 0, '9lkho41cebf6ndm6o7a5ovqgg0', 0, 1, '', '', 'Тверь', '', '19000', '', '', '', '', '[]');
 
 -- --------------------------------------------------------
@@ -6249,356 +6266,428 @@ ALTER TABLE `modx_workspaces`
 --
 ALTER TABLE `modx_access_actiondom`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_actions`
 --
 ALTER TABLE `modx_access_actions`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_category`
 --
 ALTER TABLE `modx_access_category`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_context`
 --
 ALTER TABLE `modx_access_context`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_elements`
 --
 ALTER TABLE `modx_access_elements`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_media_source`
 --
 ALTER TABLE `modx_access_media_source`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_menus`
 --
 ALTER TABLE `modx_access_menus`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_namespace`
 --
 ALTER TABLE `modx_access_namespace`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_permissions`
 --
 ALTER TABLE `modx_access_permissions`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=231;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_policies`
 --
 ALTER TABLE `modx_access_policies`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_policy_templates`
 --
 ALTER TABLE `modx_access_policy_templates`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_policy_template_groups`
 --
 ALTER TABLE `modx_access_policy_template_groups`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_resources`
 --
 ALTER TABLE `modx_access_resources`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_resource_groups`
 --
 ALTER TABLE `modx_access_resource_groups`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_access_templatevars`
 --
 ALTER TABLE `modx_access_templatevars`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_actiondom`
 --
 ALTER TABLE `modx_actiondom`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_actions`
 --
 ALTER TABLE `modx_actions`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_actions_fields`
 --
 ALTER TABLE `modx_actions_fields`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_categories`
 --
 ALTER TABLE `modx_categories`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_class_map`
 --
 ALTER TABLE `modx_class_map`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_clientconfig_group`
 --
 ALTER TABLE `modx_clientconfig_group`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_clientconfig_setting`
 --
 ALTER TABLE `modx_clientconfig_setting`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_collection_settings`
 --
 ALTER TABLE `modx_collection_settings`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_collection_templates`
 --
 ALTER TABLE `modx_collection_templates`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_collection_template_columns`
 --
 ALTER TABLE `modx_collection_template_columns`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_content_type`
 --
 ALTER TABLE `modx_content_type`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_dashboard`
 --
 ALTER TABLE `modx_dashboard`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_dashboard_widget`
 --
 ALTER TABLE `modx_dashboard_widget`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_documentgroup_names`
 --
 ALTER TABLE `modx_documentgroup_names`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_document_groups`
 --
 ALTER TABLE `modx_document_groups`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_extension_packages`
 --
 ALTER TABLE `modx_extension_packages`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_fc_profiles`
 --
 ALTER TABLE `modx_fc_profiles`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_fc_sets`
 --
 ALTER TABLE `modx_fc_sets`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_formit_forms`
 --
 ALTER TABLE `modx_formit_forms`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_gallery_albums`
 --
 ALTER TABLE `modx_gallery_albums`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_gallery_album_contexts`
 --
 ALTER TABLE `modx_gallery_album_contexts`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_gallery_album_items`
 --
 ALTER TABLE `modx_gallery_album_items`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_gallery_items`
 --
 ALTER TABLE `modx_gallery_items`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_gallery_tags`
 --
 ALTER TABLE `modx_gallery_tags`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_lexicon_entries`
 --
 ALTER TABLE `modx_lexicon_entries`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_manager_log`
 --
 ALTER TABLE `modx_manager_log`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1967;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1982;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_media_sources`
 --
 ALTER TABLE `modx_media_sources`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_membergroup_names`
 --
 ALTER TABLE `modx_membergroup_names`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_member_groups`
 --
 ALTER TABLE `modx_member_groups`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_migx_configs`
 --
 ALTER TABLE `modx_migx_configs`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_migx_config_elements`
 --
 ALTER TABLE `modx_migx_config_elements`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_migx_elements`
 --
 ALTER TABLE `modx_migx_elements`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_migx_formtabs`
 --
 ALTER TABLE `modx_migx_formtabs`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_migx_formtab_fields`
 --
 ALTER TABLE `modx_migx_formtab_fields`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_property_set`
 --
 ALTER TABLE `modx_property_set`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_quip_comments`
 --
 ALTER TABLE `modx_quip_comments`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_quip_comment_notify`
 --
 ALTER TABLE `modx_quip_comment_notify`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_register_queues`
 --
 ALTER TABLE `modx_register_queues`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_register_topics`
 --
 ALTER TABLE `modx_register_topics`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_site_content`
 --
 ALTER TABLE `modx_site_content`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_site_htmlsnippets`
 --
 ALTER TABLE `modx_site_htmlsnippets`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_site_plugins`
 --
 ALTER TABLE `modx_site_plugins`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_site_snippets`
 --
 ALTER TABLE `modx_site_snippets`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=79;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_site_templates`
 --
 ALTER TABLE `modx_site_templates`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_site_tmplvars`
 --
 ALTER TABLE `modx_site_tmplvars`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_site_tmplvar_access`
 --
 ALTER TABLE `modx_site_tmplvar_access`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_site_tmplvar_contentvalues`
 --
 ALTER TABLE `modx_site_tmplvar_contentvalues`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_tagger_groups`
 --
 ALTER TABLE `modx_tagger_groups`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_tagger_tags`
 --
 ALTER TABLE `modx_tagger_tags`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_thumb_images`
 --
 ALTER TABLE `modx_thumb_images`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_transport_providers`
 --
 ALTER TABLE `modx_transport_providers`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_users`
 --
 ALTER TABLE `modx_users`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_user_attributes`
 --
 ALTER TABLE `modx_user_attributes`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_user_group_roles`
 --
 ALTER TABLE `modx_user_group_roles`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_user_messages`
 --
 ALTER TABLE `modx_user_messages`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT для таблицы `modx_workspaces`
 --
 ALTER TABLE `modx_workspaces`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
