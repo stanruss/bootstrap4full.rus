@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 08 2018 г., 18:13
+-- Время создания: Фев 09 2018 г., 10:17
 -- Версия сервера: 5.6.38
 -- Версия PHP: 5.5.38
 
@@ -3427,7 +3427,81 @@ INSERT INTO `modx_manager_log` (`id`, `user`, `occurred`, `action`, `classKey`, 
 (1978, 1, '2018-02-08 18:11:58', 'chunk_update', 'modChunk', '72'),
 (1979, 1, '2018-02-08 18:11:59', 'propertyset_update_from_element', 'modChunk', '72'),
 (1980, 1, '2018-02-08 18:12:25', 'chunk_update', 'modChunk', '72'),
-(1981, 1, '2018-02-08 18:12:25', 'propertyset_update_from_element', 'modChunk', '72');
+(1981, 1, '2018-02-08 18:12:25', 'propertyset_update_from_element', 'modChunk', '72'),
+(1982, 1, '2018-02-09 09:22:33', 'login', 'modContext', 'web'),
+(1983, 1, '2018-02-09 09:23:17', 'login', 'modContext', 'mgr'),
+(1984, 1, '2018-02-09 09:24:28', 'chunk_update', 'modChunk', '14'),
+(1985, 1, '2018-02-09 09:24:28', 'propertyset_update_from_element', 'modChunk', '14'),
+(1986, 1, '2018-02-09 09:26:08', 'chunk_update', 'modChunk', '13'),
+(1987, 1, '2018-02-09 09:26:09', 'propertyset_update_from_element', 'modChunk', '13'),
+(1988, 1, '2018-02-09 09:26:36', 'chunk_update', 'modChunk', '13'),
+(1989, 1, '2018-02-09 09:26:36', 'propertyset_update_from_element', 'modChunk', '13'),
+(1990, 1, '2018-02-09 09:27:53', 'chunk_update', 'modChunk', '13'),
+(1991, 1, '2018-02-09 09:27:54', 'propertyset_update_from_element', 'modChunk', '13'),
+(1992, 1, '2018-02-09 09:30:42', 'login', 'modContext', 'web'),
+(1993, 1, '2018-02-09 09:33:38', 'login', 'modContext', 'web'),
+(1994, 1, '2018-02-09 09:40:54', 'login', 'modContext', 'web'),
+(1995, 1, '2018-02-09 09:43:13', 'login', 'modContext', 'web'),
+(1996, 1, '2018-02-09 09:43:22', 'login', 'modContext', 'web'),
+(1997, 1, '2018-02-09 09:44:22', 'login', 'modContext', 'web'),
+(1998, 1, '2018-02-09 09:44:55', 'login', 'modContext', 'web'),
+(1999, 1, '2018-02-09 09:45:08', 'login', 'modContext', 'web'),
+(2000, 1, '2018-02-09 09:45:51', 'chunk_update', 'modChunk', '14'),
+(2001, 1, '2018-02-09 09:45:51', 'propertyset_update_from_element', 'modChunk', '14'),
+(2002, 1, '2018-02-09 09:49:48', 'chunk_update', 'modChunk', '14'),
+(2003, 1, '2018-02-09 09:49:48', 'propertyset_update_from_element', 'modChunk', '14'),
+(2004, 1, '2018-02-09 09:51:10', 'chunk_update', 'modChunk', '14'),
+(2005, 1, '2018-02-09 09:51:10', 'propertyset_update_from_element', 'modChunk', '14'),
+(2006, 1, '2018-02-09 09:52:08', 'chunk_update', 'modChunk', '14'),
+(2007, 1, '2018-02-09 09:52:08', 'propertyset_update_from_element', 'modChunk', '14'),
+(2008, 1, '2018-02-09 09:52:27', 'chunk_update', 'modChunk', '14'),
+(2009, 1, '2018-02-09 09:52:27', 'propertyset_update_from_element', 'modChunk', '14'),
+(2010, 1, '2018-02-09 09:52:47', 'chunk_update', 'modChunk', '14'),
+(2011, 1, '2018-02-09 09:52:47', 'propertyset_update_from_element', 'modChunk', '14'),
+(2012, 1, '2018-02-09 09:53:32', 'chunk_update', 'modChunk', '14'),
+(2013, 1, '2018-02-09 09:53:33', 'propertyset_update_from_element', 'modChunk', '14');
+INSERT INTO `modx_manager_log` (`id`, `user`, `occurred`, `action`, `classKey`, `item`) VALUES
+(2014, 1, '2018-02-09 09:53:44', 'login', 'modContext', 'web'),
+(2015, 1, '2018-02-09 09:54:04', 'chunk_update', 'modChunk', '14'),
+(2016, 1, '2018-02-09 09:54:04', 'propertyset_update_from_element', 'modChunk', '14'),
+(2017, 1, '2018-02-09 09:54:53', 'chunk_update', 'modChunk', '13'),
+(2018, 1, '2018-02-09 09:54:53', 'propertyset_update_from_element', 'modChunk', '13'),
+(2019, 1, '2018-02-09 09:55:40', 'chunk_update', 'modChunk', '13'),
+(2020, 1, '2018-02-09 09:55:40', 'propertyset_update_from_element', 'modChunk', '13'),
+(2021, 1, '2018-02-09 09:55:58', 'chunk_update', 'modChunk', '13'),
+(2022, 1, '2018-02-09 09:55:59', 'propertyset_update_from_element', 'modChunk', '13'),
+(2023, 1, '2018-02-09 09:57:04', 'login', 'modContext', 'web'),
+(2024, 1, '2018-02-09 09:58:58', 'login', 'modContext', 'web'),
+(2025, 1, '2018-02-09 10:00:55', 'login', 'modContext', 'web'),
+(2026, 1, '2018-02-09 10:01:01', 'login', 'modContext', 'web'),
+(2027, 1, '2018-02-09 10:02:31', 'login', 'modContext', 'web'),
+(2028, 1, '2018-02-09 10:04:38', 'login', 'modContext', 'web'),
+(2029, 1, '2018-02-09 10:05:41', 'login', 'modContext', 'web'),
+(2030, 1, '2018-02-09 10:05:57', 'login', 'modContext', 'web'),
+(2031, 1, '2018-02-09 10:08:19', 'login', 'modContext', 'web'),
+(2032, 1, '2018-02-09 10:09:19', 'login', 'modContext', 'web'),
+(2033, 1, '2018-02-09 10:10:36', 'login', 'modContext', 'web'),
+(2034, 1, '2018-02-09 10:11:19', 'chunk_update', 'modChunk', '14'),
+(2035, 1, '2018-02-09 10:11:20', 'propertyset_update_from_element', 'modChunk', '14'),
+(2036, 1, '2018-02-09 10:11:31', 'chunk_update', 'modChunk', '14'),
+(2037, 1, '2018-02-09 10:11:32', 'propertyset_update_from_element', 'modChunk', '14'),
+(2038, 1, '2018-02-09 10:12:55', 'chunk_update', 'modChunk', '14'),
+(2039, 1, '2018-02-09 10:12:55', 'propertyset_update_from_element', 'modChunk', '14'),
+(2040, 1, '2018-02-09 10:13:21', 'chunk_update', 'modChunk', '14'),
+(2041, 1, '2018-02-09 10:13:21', 'propertyset_update_from_element', 'modChunk', '14'),
+(2042, 1, '2018-02-09 10:13:40', 'chunk_update', 'modChunk', '14'),
+(2043, 1, '2018-02-09 10:13:40', 'propertyset_update_from_element', 'modChunk', '14'),
+(2044, 1, '2018-02-09 10:14:20', 'login', 'modContext', 'web'),
+(2045, 1, '2018-02-09 10:14:57', 'chunk_update', 'modChunk', '14'),
+(2046, 1, '2018-02-09 10:14:57', 'propertyset_update_from_element', 'modChunk', '14'),
+(2047, 1, '2018-02-09 10:15:31', 'chunk_update', 'modChunk', '14'),
+(2048, 1, '2018-02-09 10:15:31', 'propertyset_update_from_element', 'modChunk', '14'),
+(2049, 1, '2018-02-09 10:15:38', 'chunk_update', 'modChunk', '14'),
+(2050, 1, '2018-02-09 10:15:38', 'propertyset_update_from_element', 'modChunk', '14'),
+(2051, 1, '2018-02-09 10:16:16', 'chunk_update', 'modChunk', '14'),
+(2052, 1, '2018-02-09 10:16:16', 'propertyset_update_from_element', 'modChunk', '14'),
+(2053, 1, '2018-02-09 10:16:39', 'chunk_update', 'modChunk', '14'),
+(2054, 1, '2018-02-09 10:16:39', 'propertyset_update_from_element', 'modChunk', '14');
 
 -- --------------------------------------------------------
 
@@ -3931,7 +4005,9 @@ CREATE TABLE `modx_session` (
 --
 
 INSERT INTO `modx_session` (`id`, `access`, `data`) VALUES
-('jemh826ikas03b20mtcu961fq1', 1518102774, 'modx.user.contextTokens|a:0:{}');
+('jemh826ikas03b20mtcu961fq1', 1518102774, 'modx.user.contextTokens|a:0:{}'),
+('5sttkn0cb09hr6m5fdthgbgj32', 1518160628, 'modx.user.contextTokens|a:0:{}'),
+('1krpdik6tq950qsovf4u1c2o37', 1518157399, 'modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}modx.mgr.user.token|s:52:\"modx59d3260baf34f9.19499995_15a7d3e550daca2.19497772\";modx.mgr.session.cookie.lifetime|i:0;modx.mgr.user.config|a:0:{}');
 
 -- --------------------------------------------------------
 
@@ -4046,8 +4122,8 @@ INSERT INTO `modx_site_htmlsnippets` (`id`, `source`, `property_preprocess`, `na
 (10, 0, 0, 'fiDefaultOptionTpl', 'The default chunk used by the FormItCountryOptions snippet for the select option. Please do not edit this chunk, as this will be overwritten when updating FormIt.', 0, 9, 0, '<option value=\"[[+value]]\"[[+selected]]>[[+text]]</option>', 0, 'a:0:{}', 0, ''),
 (11, 0, 0, 'galAlbumRowTpl', '', 0, 10, 0, '<li[[+cls:notempty=` class=\"[[+cls]]\"`]]><a href=\"[[~[[*id]]? &[[+albumRequestVar]]=`[[+id]]`]]\">[[+showName:notempty=`[[+name]]`]]</a></li>', 0, '', 0, ''),
 (12, 0, 0, 'galItemThumb', '', 0, 10, 0, '<div class=\"[[+cls]]\">\n    <a href=\"[[+linkToImage:if=`[[+linkToImage]]`:is=`1`:then=`[[+image_absolute]]`:else=`[[~[[*id]]?\n            &[[+imageGetParam]]=`[[+id]]`\n            &[[+albumRequestVar]]=`[[+album]]`\n            &[[+tagRequestVar]]=`[[+tag]]` ]]`]]\" title=\"[[+name]]\" [[+link_attributes]]>\n\n        <img class=\"[[+imgCls]]\" src=\"[[+thumbnail]]\" alt=\"[[+name]]\" [[+image_attributes]] />\n    </a>\n</div>', 0, '', 0, ''),
-(13, 0, 0, 'lgnLoginTpl', '', 0, 12, 0, '<div class=\"loginForm\">\n    <div class=\"loginMessage\">[[+errors]]</div>\n    <div class=\"loginLogin\">\n        <form class=\"loginLoginForm\" action=\"[[~[[*id]]]]\" method=\"post\">\n            \n            <fieldset class=\"loginLoginFieldset pull-right\">\n                \n                <div class=\"loginUsernameLabel\">\n                    <input class=\"loginUsername form-control mb-1 form-control-sm\" type=\"text\" name=\"username\" placeholder=\"Логин\" required />\n                </div>\n                \n                <div class=\"loginPasswordLabel\">\n                    <input class=\"loginPassword form-control my-1 form-control-sm\" id=\"inputPassword\"  type=\"password\" name=\"password\" placeholder=\"Пароль\" required />\n                </div>\n                <input class=\"returnUrl\" type=\"hidden\" name=\"returnUrl\" value=\"[[+request_uri]]\" />\n\n                [[+login.recaptcha_html]]\n                \n                <input class=\"loginLoginValue\" type=\"hidden\" name=\"service\" value=\"login\" />\n                <button class=\"btn-sm btn-primary\" type=\"submit\">Войти</button>\n\n<div class=\"forg\"><span><a class=\"left\" href=\"[[~8]]\">Забыли пароль?</a></span><span> / </span><span> <a class=\"right\" href=\"[[~10]]\"> Регистрация </a ></span></div>\n            </fieldset>\n        </form>\n    </div>\n</div>', 0, 'a:0:{}', 0, ''),
-(14, 0, 0, 'lgnLogoutTpl', '', 0, 12, 0, '<div class=\"loginMessage\">[[+errors]]</div>\n\n<div class=\"loginLogin\">\n    <div class=\"loginRegister pull-right\">\n        <div class=\"butt\"><a href=\"[[+logoutUrl]]\" title=\"[[+actionMsg]]\"><button class=\"btn-sm btn-primary out\" type=\"submit\">Выйти</button></a>\n       <span> Добро пожаловать <b>[[+modx.user.id:userinfo=`username`]]</b></span></div>\n        \n    </div>\n</div>', 0, 'a:0:{}', 0, ''),
+(13, 0, 0, 'lgnLoginTpl', '', 0, 12, 0, '<div class=\"loginForm\">\n    <div class=\"loginMessage\">[[+errors]]</div>\n    <div class=\"loginLogin\">\n        <form class=\"loginLoginForm\" action=\"[[~[[*id]]]]\" method=\"post\">\n            \n            <fieldset class=\"loginLoginFieldset pull-right\">\n                \n                <div class=\"loginUsernameLabel\">\n                    <input class=\"loginUsername form-control mb-1 form-control-sm\" type=\"text\" name=\"username\" placeholder=\"Логин\" required />\n                </div>\n                \n                <div class=\"loginPasswordLabel\">\n                    <input class=\"loginPassword form-control my-1 form-control-sm\" id=\"inputPassword\"  type=\"password\" name=\"password\" placeholder=\"Пароль\" required />\n                </div>\n                <input class=\"returnUrl\" type=\"hidden\" name=\"returnUrl\" value=\"[[+request_uri]]\" />\n\n                [[+login.recaptcha_html]]\n                \n                <input class=\"loginLoginValue\" type=\"hidden\" name=\"service\" value=\"login\" />\n                <button class=\"btn-in btn-sm\" type=\"submit\"></button>\n\n<div class=\"forg\"><span><a class=\"left\" href=\"[[~8]]\">Забыли пароль?</a></span><span class=\"text-white mx-2\"> / </span><span> <a class=\"right\" href=\"[[~10]]\"> Регистрация </a ></span></div>\n            </fieldset>\n        </form>\n    </div>\n</div>', 0, 'a:0:{}', 0, ''),
+(14, 0, 0, 'lgnLogoutTpl', '', 0, 12, 0, '<div class=\"loginMessage\">[[+errors]]</div>\n\n<div class=\"loginLogin\">\n    <div class=\"loginRegister pull-right\">\n        <div class=\"butt\"><a href=\"[[+logoutUrl]]\" title=\"[[+actionMsg]]\"><button class=\"btn-out btn-sm\" type=\"submit\"></button></a><br>\n       <span class=\"text-white ml-2\"><small> Добро пожаловать <b>[[+modx.user.id:userinfo=`username`]]</b></small></span></div>\n        \n    </div>\n</div>', 0, 'a:0:{}', 0, ''),
 (15, 0, 0, 'lgnErrTpl', '', 0, 12, 0, '<p class=\"error\">[[+msg]]</p>', 0, 'a:0:{}', 0, ''),
 (16, 0, 0, 'lgnForgotPassEmail', '', 0, 12, 0, '<p>[[+username]],</p>\n\n<p>Для активации аккаунта, нажмите пожалуйста на ссылку снизу:</p>\n\n<p><a href=\"[[+confirmUrl]]\">[[+confirmUrl]]</a></p>\n\n<p>Если все прошло удачно, можете уже авторизоваться в системе:</p>\n\n<p><strong>Password:</strong> [[+password]]</p>\n\n<p>Если вы не заказывали активацию, проигнорируйте это письмо.</p>\n\n<p>Спасибо,<br />\n<em>Администратор сайта [[+sname]]</em></p>', 0, 'a:0:{}', 0, ''),
 (17, 0, 0, 'lgnForgotPassSentTpl', '', 0, 12, 0, '<h2 class=\"center\">Уважаемый пользователь!</h2>\n<p class=\"center\">Ваши данные были посланы на ваш почтовый ящик [[+email]].</p>', 0, 'a:0:{}', 0, ''),
@@ -5328,7 +5404,7 @@ CREATE TABLE `modx_user_attributes` (
 --
 
 INSERT INTO `modx_user_attributes` (`id`, `internalKey`, `fullname`, `email`, `phone`, `mobilephone`, `blocked`, `blockeduntil`, `blockedafter`, `logincount`, `lastlogin`, `thislogin`, `failedlogincount`, `sessionid`, `dob`, `gender`, `address`, `country`, `city`, `state`, `zip`, `fax`, `photo`, `comment`, `website`, `extended`) VALUES
-(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 36, 1518066757, 1518098177, 0, 'cippcptgts8mkapn6qbatnodi1', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
+(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 59, 1518160236, 1518160460, 0, 'aoh42fd0m9eso219irofnss3n0', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
 (2, 2, '', 'stan1978@gmail.com', '', '', 0, 0, 0, 3, 1507027219, 1516255911, 0, '9lkho41cebf6ndm6o7a5ovqgg0', 0, 1, '', '', 'Тверь', '', '19000', '', '', '', '', '[]');
 
 -- --------------------------------------------------------
@@ -6505,7 +6581,7 @@ ALTER TABLE `modx_lexicon_entries`
 -- AUTO_INCREMENT для таблицы `modx_manager_log`
 --
 ALTER TABLE `modx_manager_log`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1982;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2055;
 
 --
 -- AUTO_INCREMENT для таблицы `modx_media_sources`

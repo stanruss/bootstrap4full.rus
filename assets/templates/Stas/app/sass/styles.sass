@@ -5,7 +5,21 @@
 @import "fonts"
 @import "vars"
 @import "media"
-
+.loginLogin	button, .loginLoginFieldset button
+	border: 1px darken(#2c4743, 15%) solid
+	+border-radius(5px, all)
+	&:hover
+		border: 1px lighten(#2c4743, 15%) solid
+	&:focus
+		outline: none
+	&:active
+		border: 1px darken(#2c4743, 5%) solid
+.loginLogin
+	button
+		background-image: url(../img/out.png)
+		background-repeat: no-repeat
+		width: 101px
+		height: 35px
 
 .navbar-toggler
 	right: 20px
@@ -13,6 +27,16 @@
 	left: auto
 .loginLoginFieldset
 	width: 530px
+	position: relative
+	button
+		background-image: url(../img/in.png)
+		background-repeat: no-repeat
+		width: 60px
+		height: 35px
+		position: absolute
+		top: 2px
+		right: 40px
+		
 .loginUsernameLabel, .loginPasswordLabel  
 	width: 40%
 	display: inline-block
