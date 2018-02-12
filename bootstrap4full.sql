@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 09 2018 г., 21:30
+-- Время создания: Фев 12 2018 г., 18:15
 -- Версия сервера: 5.6.38
 -- Версия PHP: 5.5.38
 
@@ -3580,7 +3580,109 @@ INSERT INTO `modx_manager_log` (`id`, `user`, `occurred`, `action`, `classKey`, 
 (2130, 1, '2018-02-09 21:24:41', 'login', 'modContext', 'web'),
 (2131, 1, '2018-02-09 21:26:11', 'login', 'modContext', 'mgr'),
 (2132, 1, '2018-02-09 21:26:36', 'chunk_update', 'modChunk', '36'),
-(2133, 1, '2018-02-09 21:26:37', 'propertyset_update_from_element', 'modChunk', '36');
+(2133, 1, '2018-02-09 21:26:37', 'propertyset_update_from_element', 'modChunk', '36'),
+(2134, 1, '2018-02-12 17:17:15', 'login', 'modContext', 'mgr'),
+(2135, 1, '2018-02-12 17:21:21', 'chunk_update', 'modChunk', '39'),
+(2136, 1, '2018-02-12 17:21:22', 'propertyset_update_from_element', 'modChunk', '39'),
+(2137, 1, '2018-02-12 17:23:05', 'chunk_create', 'modChunk', '84'),
+(2138, 1, '2018-02-12 17:24:30', 'chunk_update', 'modChunk', '84'),
+(2139, 1, '2018-02-12 17:24:31', 'propertyset_update_from_element', 'modChunk', '84'),
+(2140, 1, '2018-02-12 17:25:04', 'chunk_update', 'modChunk', '84'),
+(2141, 1, '2018-02-12 17:25:05', 'propertyset_update_from_element', 'modChunk', '84'),
+(2142, 1, '2018-02-12 17:25:55', 'chunk_update', 'modChunk', '84'),
+(2143, 1, '2018-02-12 17:25:55', 'propertyset_update_from_element', 'modChunk', '84'),
+(2144, 1, '2018-02-12 17:26:17', 'chunk_update', 'modChunk', '84'),
+(2145, 1, '2018-02-12 17:26:17', 'propertyset_update_from_element', 'modChunk', '84'),
+(2146, 1, '2018-02-12 17:27:01', 'chunk_update', 'modChunk', '84'),
+(2147, 1, '2018-02-12 17:27:02', 'propertyset_update_from_element', 'modChunk', '84'),
+(2148, 1, '2018-02-12 17:27:26', 'chunk_update', 'modChunk', '84'),
+(2149, 1, '2018-02-12 17:27:27', 'propertyset_update_from_element', 'modChunk', '84'),
+(2150, 1, '2018-02-12 17:27:47', 'chunk_update', 'modChunk', '84'),
+(2151, 1, '2018-02-12 17:27:47', 'propertyset_update_from_element', 'modChunk', '84'),
+(2152, 1, '2018-02-12 17:28:28', 'chunk_update', 'modChunk', '84'),
+(2153, 1, '2018-02-12 17:28:28', 'propertyset_update_from_element', 'modChunk', '84'),
+(2154, 1, '2018-02-12 17:28:38', 'chunk_update', 'modChunk', '84'),
+(2155, 1, '2018-02-12 17:28:38', 'propertyset_update_from_element', 'modChunk', '84'),
+(2156, 1, '2018-02-12 17:29:32', 'chunk_update', 'modChunk', '84'),
+(2157, 1, '2018-02-12 17:29:33', 'propertyset_update_from_element', 'modChunk', '84'),
+(2158, 1, '2018-02-12 17:30:28', 'chunk_update', 'modChunk', '84'),
+(2159, 1, '2018-02-12 17:30:29', 'propertyset_update_from_element', 'modChunk', '84'),
+(2160, 1, '2018-02-12 17:31:29', 'chunk_update', 'modChunk', '84'),
+(2161, 1, '2018-02-12 17:31:29', 'propertyset_update_from_element', 'modChunk', '84'),
+(2162, 1, '2018-02-12 17:32:03', 'chunk_update', 'modChunk', '84'),
+(2163, 1, '2018-02-12 17:32:03', 'propertyset_update_from_element', 'modChunk', '84'),
+(2164, 1, '2018-02-12 17:33:18', 'chunk_update', 'modChunk', '84'),
+(2165, 1, '2018-02-12 17:33:19', 'propertyset_update_from_element', 'modChunk', '84'),
+(2166, 1, '2018-02-12 17:34:06', 'chunk_create', 'modChunk', '85'),
+(2167, 1, '2018-02-12 17:35:30', 'chunk_update', 'modChunk', '85'),
+(2168, 1, '2018-02-12 17:35:30', 'propertyset_update_from_element', 'modChunk', '85'),
+(2169, 1, '2018-02-12 17:36:00', 'chunk_update', 'modChunk', '84'),
+(2170, 1, '2018-02-12 17:36:00', 'propertyset_update_from_element', 'modChunk', '84'),
+(2171, 1, '2018-02-12 17:36:30', 'chunk_update', 'modChunk', '84'),
+(2172, 1, '2018-02-12 17:36:30', 'propertyset_update_from_element', 'modChunk', '84'),
+(2173, 1, '2018-02-12 17:36:48', 'propertyset_update_from_element', 'modChunk', '84'),
+(2174, 1, '2018-02-12 17:36:50', 'chunk_update', 'modChunk', '84'),
+(2175, 1, '2018-02-12 17:36:50', 'propertyset_update_from_element', 'modChunk', '84'),
+(2176, 1, '2018-02-12 17:38:29', 'tv_create', 'modTemplateVar', '6'),
+(2177, 1, '2018-02-12 17:39:57', 'resource_update', 'modResource', '1'),
+(2178, 1, '2018-02-12 17:40:45', 'resource_update', 'modResource', '1'),
+(2179, 1, '2018-02-12 17:41:31', 'login', 'modContext', 'web'),
+(2180, 1, '2018-02-12 17:43:34', 'chunk_update', 'modChunk', '84'),
+(2181, 1, '2018-02-12 17:43:34', 'propertyset_update_from_element', 'modChunk', '84'),
+(2182, 1, '2018-02-12 17:43:42', 'chunk_update', 'modChunk', '84'),
+(2183, 1, '2018-02-12 17:43:43', 'propertyset_update_from_element', 'modChunk', '84'),
+(2184, 1, '2018-02-12 17:43:53', 'tv_update', 'modTemplateVar', '6'),
+(2185, 1, '2018-02-12 17:43:53', 'propertyset_update_from_element', 'modTemplateVar', '6'),
+(2186, 1, '2018-02-12 17:44:10', 'tv_update', 'modTemplateVar', '6'),
+(2187, 1, '2018-02-12 17:44:10', 'propertyset_update_from_element', 'modTemplateVar', '6'),
+(2188, 1, '2018-02-12 17:45:47', 'chunk_update', 'modChunk', '85'),
+(2189, 1, '2018-02-12 17:45:47', 'propertyset_update_from_element', 'modChunk', '85'),
+(2190, 1, '2018-02-12 17:46:49', 'chunk_update', 'modChunk', '84'),
+(2191, 1, '2018-02-12 17:46:49', 'propertyset_update_from_element', 'modChunk', '84'),
+(2192, 1, '2018-02-12 17:47:20', 'chunk_update', 'modChunk', '84'),
+(2193, 1, '2018-02-12 17:47:20', 'propertyset_update_from_element', 'modChunk', '84'),
+(2194, 1, '2018-02-12 17:48:04', 'chunk_update', 'modChunk', '84'),
+(2195, 1, '2018-02-12 17:48:04', 'propertyset_update_from_element', 'modChunk', '84'),
+(2196, 1, '2018-02-12 17:48:49', 'chunk_update', 'modChunk', '84'),
+(2197, 1, '2018-02-12 17:48:49', 'propertyset_update_from_element', 'modChunk', '84'),
+(2198, 1, '2018-02-12 17:49:28', 'chunk_update', 'modChunk', '84'),
+(2199, 1, '2018-02-12 17:49:28', 'propertyset_update_from_element', 'modChunk', '84'),
+(2200, 1, '2018-02-12 17:49:50', 'chunk_update', 'modChunk', '84'),
+(2201, 1, '2018-02-12 17:49:50', 'propertyset_update_from_element', 'modChunk', '84'),
+(2202, 1, '2018-02-12 17:50:09', 'chunk_update', 'modChunk', '84'),
+(2203, 1, '2018-02-12 17:50:09', 'propertyset_update_from_element', 'modChunk', '84'),
+(2204, 1, '2018-02-12 17:50:21', 'chunk_update', 'modChunk', '84'),
+(2205, 1, '2018-02-12 17:50:22', 'propertyset_update_from_element', 'modChunk', '84'),
+(2206, 1, '2018-02-12 17:50:47', 'chunk_update', 'modChunk', '85'),
+(2207, 1, '2018-02-12 17:50:47', 'propertyset_update_from_element', 'modChunk', '85'),
+(2208, 1, '2018-02-12 17:51:50', 'chunk_update', 'modChunk', '85'),
+(2209, 1, '2018-02-12 17:51:50', 'propertyset_update_from_element', 'modChunk', '85'),
+(2210, 1, '2018-02-12 17:52:36', 'chunk_update', 'modChunk', '85'),
+(2211, 1, '2018-02-12 17:52:37', 'propertyset_update_from_element', 'modChunk', '85'),
+(2212, 1, '2018-02-12 17:52:56', 'chunk_update', 'modChunk', '85'),
+(2213, 1, '2018-02-12 17:52:57', 'propertyset_update_from_element', 'modChunk', '85'),
+(2214, 1, '2018-02-12 18:00:09', 'chunk_update', 'modChunk', '85'),
+(2215, 1, '2018-02-12 18:00:09', 'propertyset_update_from_element', 'modChunk', '85'),
+(2216, 1, '2018-02-12 18:02:16', 'chunk_update', 'modChunk', '85'),
+(2217, 1, '2018-02-12 18:02:16', 'propertyset_update_from_element', 'modChunk', '85'),
+(2218, 1, '2018-02-12 18:04:21', 'chunk_update', 'modChunk', '85'),
+(2219, 1, '2018-02-12 18:04:21', 'propertyset_update_from_element', 'modChunk', '85'),
+(2220, 1, '2018-02-12 18:05:50', 'resource_update', 'modResource', '1'),
+(2221, 1, '2018-02-12 18:06:57', 'resource_update', 'modResource', '1'),
+(2222, 1, '2018-02-12 18:07:46', 'chunk_update', 'modChunk', '84'),
+(2223, 1, '2018-02-12 18:07:47', 'propertyset_update_from_element', 'modChunk', '84'),
+(2224, 1, '2018-02-12 18:08:03', 'chunk_update', 'modChunk', '84'),
+(2225, 1, '2018-02-12 18:08:03', 'propertyset_update_from_element', 'modChunk', '84'),
+(2226, 1, '2018-02-12 18:08:41', 'chunk_update', 'modChunk', '41'),
+(2227, 1, '2018-02-12 18:08:41', 'propertyset_update_from_element', 'modChunk', '41'),
+(2228, 1, '2018-02-12 18:08:46', 'login', 'modContext', 'web'),
+(2229, 1, '2018-02-12 18:10:23', 'chunk_update', 'modChunk', '85'),
+(2230, 1, '2018-02-12 18:10:23', 'propertyset_update_from_element', 'modChunk', '85'),
+(2231, 1, '2018-02-12 18:11:48', 'chunk_update', 'modChunk', '85'),
+(2232, 1, '2018-02-12 18:11:49', 'propertyset_update_from_element', 'modChunk', '85'),
+(2233, 1, '2018-02-12 18:12:40', 'chunk_update', 'modChunk', '85'),
+(2234, 1, '2018-02-12 18:12:40', 'propertyset_update_from_element', 'modChunk', '85'),
+(2235, 1, '2018-02-12 18:13:03', 'login', 'modContext', 'web');
 
 -- --------------------------------------------------------
 
@@ -3636,7 +3738,8 @@ CREATE TABLE `modx_media_sources_elements` (
 INSERT INTO `modx_media_sources_elements` (`source`, `object_class`, `object`, `context_key`) VALUES
 (1, 'modTemplateVar', 3, 'web'),
 (1, 'modTemplateVar', 4, 'web'),
-(1, 'modTemplateVar', 5, 'web');
+(1, 'modTemplateVar', 5, 'web'),
+(1, 'modTemplateVar', 6, 'web');
 
 -- --------------------------------------------------------
 
@@ -4086,10 +4189,7 @@ CREATE TABLE `modx_session` (
 --
 
 INSERT INTO `modx_session` (`id`, `access`, `data`) VALUES
-('g28gimsd6n5qfukd7rbgamjm94', 1518200773, 'modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.mgr.user.token|s:52:\"modx59d3260baf34f9.19499995_15a7de7c37b5755.11278166\";modx.mgr.session.cookie.lifetime|i:0;modx.mgr.user.config|a:0:{}'),
-('qlvgre7anbhafpgo82qi2iccb5', 1518200681, 'modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}modx.user.contextTokens|a:1:{s:3:\"web\";i:1;}modx.web.user.token|s:52:\"modx59d3260baf34f9.19499995_15a7de7694d28e5.72818099\";modx.web.session.cookie.lifetime|i:0;'),
-('7btpg7ogt74cpgqg09204uk5o4', 1518200702, 'modx.user.contextTokens|a:0:{}modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}'),
-('04o2qa0r314oefh3mqs92ucjg5', 1518200702, 'modx.user.contextTokens|a:0:{}modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}');
+('0sr3q8357iqsslbggvd8t0tpj6', 1518448409, 'modx.user.contextTokens|a:0:{}');
 
 -- --------------------------------------------------------
 
@@ -4148,7 +4248,7 @@ CREATE TABLE `modx_site_content` (
 --
 
 INSERT INTO `modx_site_content` (`id`, `type`, `contentType`, `pagetitle`, `longtitle`, `description`, `alias`, `link_attributes`, `published`, `pub_date`, `unpub_date`, `parent`, `isfolder`, `introtext`, `content`, `richtext`, `template`, `menuindex`, `searchable`, `cacheable`, `createdby`, `createdon`, `editedby`, `editedon`, `deleted`, `deletedon`, `deletedby`, `publishedon`, `publishedby`, `menutitle`, `donthit`, `privateweb`, `privatemgr`, `content_dispo`, `hidemenu`, `class_key`, `context_key`, `content_type`, `uri`, `uri_override`, `hide_children_in_tree`, `show_in_tree`, `properties`) VALUES
-(1, 'document', 'text/html', 'Главная', 'Поздравляем!', '', 'index', '', 1, 0, 0, 0, 0, '', '<p>You have successfully installed MODX Revolution&nbsp;[[++settings_version]]!</p>\r\n<p>Now that MODX is installed you can login to the manager to create your templates, manage content and install third party extras to add functionality to your&nbsp;website.</p>\r\n<h2>New to&nbsp;MODX?</h2>\r\n<p>Pages on a MODX site are called <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/resources\">Resources</a>, and are visible on the left-hand side of the manager in the Resources tab. Resources can be nested under other resources, making it easy to create a tree of resources. There are different types of resources for different use&nbsp;cases.</p>\r\n<p>Building your website is done through a combination of <strong>Templates</strong>, <strong>Template Variables</strong>, <strong>Chunks</strong>, <strong>Snippets</strong> and <strong>Plugins</strong>. Collectively these are known as <strong>Elements</strong>, and can also be found in the left-hand side of the manager, in the Elements&nbsp;tab.</p>\r\n<p><a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/templates\">Templates</a> contain the outer markup of any page. Each resource can only be assigned to a single template at a time. By adding <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/customizing-content/template-variables\">Template Variables</a> to a template, you can add custom fields for any resource using that particular&nbsp;template.</p>\r\n<p>With <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/chunks\">Chunks</a> you can share parts of the markup, such as a header, across different templates. <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/using-snippets\">Snippets</a> are pieces of PHP that return dynamic content, such as summaries of other resources or the current date. With snippets, you will often use Chunks to mark up the pieces of content it returns, instead of mixing the PHP and&nbsp;HTML.</p>\r\n<p>Finally, <a href=\"https://rtfm.modx.com/revolution/2.x/developing-in-modx/basic-development/plugins\">Plugins</a> enable more advanced features by hooking into the extensive events system provided by&nbsp;MODX.</p>\r\n<p>To learn more about MODX, be sure to check out the <a href=\"https://rtfm.modx.com/revolution/2.x/getting-started\">Getting Started</a> section in the official&nbsp;documentation.</p>', 1, 1, 1, 1, 1, 1, 1507010063, 1, 1518199997, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 'modDocument', 'web', 1, 'index.html', 0, 0, 1, NULL),
+(1, 'document', 'text/html', 'Главная', 'Поздравляем!', '', 'index', '', 1, 0, 0, 0, 0, '', '<p>You have successfully installed MODX Revolution&nbsp;[[++settings_version]]!</p>\r\n<p>Now that MODX is installed you can login to the manager to create your templates, manage content and install third party extras to add functionality to your&nbsp;website.</p>\r\n<h2>New to&nbsp;MODX?</h2>\r\n<p>Pages on a MODX site are called <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/resources\">Resources</a>, and are visible on the left-hand side of the manager in the Resources tab. Resources can be nested under other resources, making it easy to create a tree of resources. There are different types of resources for different use&nbsp;cases.</p>\r\n<p>Building your website is done through a combination of <strong>Templates</strong>, <strong>Template Variables</strong>, <strong>Chunks</strong>, <strong>Snippets</strong> and <strong>Plugins</strong>. Collectively these are known as <strong>Elements</strong>, and can also be found in the left-hand side of the manager, in the Elements&nbsp;tab.</p>\r\n<p><a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/templates\">Templates</a> contain the outer markup of any page. Each resource can only be assigned to a single template at a time. By adding <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/customizing-content/template-variables\">Template Variables</a> to a template, you can add custom fields for any resource using that particular&nbsp;template.</p>\r\n<p>With <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/chunks\">Chunks</a> you can share parts of the markup, such as a header, across different templates. <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/using-snippets\">Snippets</a> are pieces of PHP that return dynamic content, such as summaries of other resources or the current date. With snippets, you will often use Chunks to mark up the pieces of content it returns, instead of mixing the PHP and&nbsp;HTML.</p>\r\n<p>Finally, <a href=\"https://rtfm.modx.com/revolution/2.x/developing-in-modx/basic-development/plugins\">Plugins</a> enable more advanced features by hooking into the extensive events system provided by&nbsp;MODX.</p>\r\n<p>To learn more about MODX, be sure to check out the <a href=\"https://rtfm.modx.com/revolution/2.x/getting-started\">Getting Started</a> section in the official&nbsp;documentation.</p>', 1, 1, 1, 1, 1, 1, 1507010063, 1, 1518448017, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 'modDocument', 'web', 1, 'index.html', 0, 0, 1, NULL),
 (2, 'document', 'text/html', 'Статьи', '', 'Demo blog container page for Blogit.', 'blog', '', 1, 0, 0, 0, 1, '', '<h1>Blog overview</h1>', 1, 2, 4, 1, 1, 1, 1507010784, 1, 1517990316, 0, 0, 0, 1517990220, 1, '', 0, 0, 0, 0, 0, 'CollectionContainer', 'web', 1, 'blog/', 0, 0, 1, NULL),
 (3, 'document', 'text/html', 'Post 1', '', 'Demo post 1 for the BlogIt extra.', 'post-1', '', 1, 0, 0, 2, 0, 'Demo summary of post 2 for the BlogIt extra.', '<p>Demo content of post 2 for the BlogIt extra.</p>', 1, 3, 0, 1, 1, 1, 1507010784, 1, 1517990101, 0, 0, 0, 1517990101, 1, '', 0, 0, 0, 0, 0, 'modDocument', 'web', 1, 'post-1.html', 0, 0, 0, NULL),
 (4, 'document', 'text/html', 'Post 2', '', 'Demo post 2 for the BlogIt extra.', 'post-2', '', 1, 0, 0, 2, 0, 'Demo summary of post 2 for the BlogIt extra.', '<p>Demo content of post 2 for the BlogIt extra.</p>', 1, 3, 1, 1, 1, 1, 1507010784, 1, 1517990103, 0, 0, 0, 1517990103, 1, '', 0, 0, 0, 0, 0, 'modDocument', 'web', 1, 'post-2.html', 0, 0, 0, NULL),
@@ -4229,9 +4329,9 @@ INSERT INTO `modx_site_htmlsnippets` (`id`, `source`, `property_preprocess`, `na
 (35, 1, 0, 'myActivationEmailTpl', '', 0, 12, 0, '<p>[[+username]],</p>\n\n<p>Спасибо за регистрацию и интерес к нашему сайту [[+sname]], для активации аккаунта нажмите на ссылку:</p>\n\n<p><a href=\"[[+confirmUrl]]\">[[+confirmUrl]]</a></p>\n\n<p>После активации аккаунта, вы можете использовать свои логин и пароль:</p>\n\n<p>\nЛогин: <strong>[[+username]]</strong><br />\nПароль: <strong>[[+password]]</strong></p>\n\n<p>Если вы не регистрировались на сайте [[+sname]], проигнорируйте это письмо.</p>\n\n<p>Спасибо,<br />\n<em>Администратор сайта [[+sname]] </em></p>', 0, 'a:0:{}', 0, ''),
 (36, 1, 0, 'Head', '', 0, 22, 0, '<!DOCTYPE html>\n<html class=\"no-js\" lang=\"en\">\n<head>\n  <base href=\"[[++site_url]]\" />\n  <meta charset=\"[[++modx_charset]]\" />\n    <title>[[*longtitle:default=`[[*pagetitle]]`]] - [[++site_url]]</title>\n    <meta name=\"description\" content=\"\">\n    \n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta property=\"og:image\" content=\"path/to/image.jpg\">\n    <link rel=\"shortcut icon\" href=\"http://www.chuvyr.ru/favicon.ico\" />\n    <!-- <link rel=\"icon\" type=\"image/png\" href=\"/favicon.png\" />\n    <link rel=\"icon\" type=\"image/gif\" href=\"/favicon.gif\" />\n    <link rel=\"apple-touch-icon\" href=\"/apple-touch-icon-57×57.png\" />\n    <link rel=\"apple-touch-icon-precomposed\" href=\"/apple-touch-icon-57×57-precomposed.png\"/> -->\n    \n    <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Raleway:400,800\">\n    <link rel=\'stylesheet\' href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\">\n    <!-- <link rel=\"stylesheet\" href=\"[[++assets_url]]templates/Stas/app/css/bootstrap.min.css\"> -->\n    <link rel=\"stylesheet\" href=\"[[++assets_url]]templates/Stas/app/css/styles.min.css\">\n    \n    \n    <!-- Chrome, Firefox OS and Opera -->\n    <meta name=\"theme-color\" content=\"#192626\">\n    <!-- Windows Phone -->\n    <meta name=\"msapplication-navbutton-color\" content=\"#192626\">\n    <!-- iOS Safari -->\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"#192626\">\n</head>\n\n<body>', 0, 'a:1:{s:9:\"bodyClass\";a:7:{s:4:\"name\";s:9:\"bodyClass\";s:4:\"desc\";s:0:\"\";s:4:\"type\";s:9:\"textfield\";s:7:\"options\";a:0:{}s:5:\"value\";s:0:\"\";s:7:\"lexicon\";N;s:4:\"area\";s:0:\"\";}}', 0, ''),
 (38, 0, 0, 'Login', '', 0, 12, 0, '<div class=\"clearfix\"></div>\n<section class=\"main-login\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">[[!Login? &loginTpl=`lgnLoginTpl` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`1` &logoutResourceId=`1`]]</div>\n        </div>\n    </div>\n</section>', 0, NULL, 0, ''),
-(39, 1, 0, 'Main unreg', '', 0, 22, 0, '[[$Header]]\n[[$Navbar]]\n[[$Carousel]]\n[[$Info-mainreg]]\n', 0, 'a:0:{}', 0, ''),
+(39, 1, 0, 'Main unreg', '', 0, 22, 0, '[[$Header]]\n[[$Navbar]]\n[[$Carousel]]\n[[$Info-mainreg]]\n[[$About]]\n', 0, 'a:0:{}', 0, ''),
 (46, 0, 0, 'Navbar', '', 0, 22, 0, '<div class=\"container-fluid sec-container\">\n   <div class=\"row border-top border-bottom\">\n        <div class=\"col\">\n          <nav class=\"navbar navbar-expand-md navbar-dark d-block d-md-none\">\n  \n  <button class=\"navbar-toggler ml-3 mb-3\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    [[Wayfinder?\n						&startId=`0`\n						&level=`1`\n						&outerTpl=`tpl.Wayfinder.outer`\n						&parentRowTpl=`tpl.Wayfinder.row.parent`\n						&innerRowTpl=`tpl.Wayfinder.row.inner`\n						&rowTpl=`tpl.Wayfinder.row`\n						&outerClass=`d-sm-block d-lg-none`\n						&rowClass=`nav-item nav-link`\n						\n					]]\n    \n  </div>\n  </nav>\n  <div class=\"nav justify-content-md-center\">\n  [[Wayfinder?\n						&startId=`0`\n						&level=`1`\n						&outerTpl=`tpl.Wayfinder.outer`\n						&parentRowTpl=`tpl.Wayfinder.row.parent`\n						&innerRowTpl=`tpl.Wayfinder.row.inner`\n						&rowTpl=`tpl.Wayfinder.row`\n						&outerClass=`nav d-none d-md-flex`\n						&rowClass=`nav-item nav-link`\n						\n					]]\n</div>\n        </div>\n      </div>\n</div>', 0, 'a:0:{}', 0, ''),
-(41, 1, 0, 'Main', '', 0, 22, 0, '[[$Header]]\n[[$Navbar]]\n[[$Carousel]]\n[[$Info-main]]', 0, 'a:0:{}', 0, ''),
+(41, 1, 0, 'Main', '', 0, 22, 0, '[[$Header]]\n[[$Navbar]]\n[[$Carousel]]\n[[$Info-main]]\n[[$About]]', 0, 'a:0:{}', 0, ''),
 (42, 1, 0, 'Footer', '', 0, 22, 0, '<footer class=\"page-footer\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col l6 s12\">\n        <h5 class=\"white-text\">Content</h5>\n        <p class=\"grey-text text-lighten-4\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, voluptate, beatae! Tempore inventore possimus est eligendi, ea, quidem quo. Odio repudiandae nulla facilis, vel, incidunt sit veniam beatae commodi quibusdam non! Voluptas animi nesciunt dolor accusantium quos voluptatum tenetur nulla labore exercitationem nihil nemo facilis officia ipsum, reprehenderit. Ex, libero.</p>\n      </div>\n      <div class=\"col l6 offset-12 s12\">\n        <h5 class=\"white-text\">Links</h5>\n        <ul>\n          <li class=\"grey-text text-lighten-3\">link1</li>\n          <li class=\"grey-text text-lighten-3\">link2</li>\n          <li class=\"grey-text text-lighten-3\">link3</li>\n          <li class=\"grey-text text-lighten-3\">link4</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n  <div class=\"footer-copyright\">\n    <div class=\"container\">\n      <div class=\"row\">@copyStanruss\n  <a href=\"#!\" class=\"grey-text text-lighten-3 right\">More links</a></div>\n    </div>\n  </div>\n</footer>', 0, 'a:0:{}', 0, ''),
 (44, 1, 0, 'Scripts', '', 0, 22, 0, '  <script src=\"[[++assets_url]]templates/Stas/app/js/libs.min.js\"></script>\n  \n \n\n', 0, 'a:0:{}', 0, ''),
 (72, 0, 0, 'Content', '', 0, 22, 0, '\n\n', 0, 'a:0:{}', 0, ''),
@@ -4241,7 +4341,9 @@ INSERT INTO `modx_site_htmlsnippets` (`id`, `source`, `property_preprocess`, `na
 (82, 0, 0, 'Info-mainreg', '', 0, 22, 0, '<div class=\"container four-container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      [[!getImageList?\n    &tvname=`items`\n    &tpl=`thumbTpl`]]\n    </div>\n  </div>\n</div>', 0, 'a:0:{}', 0, ''),
 (77, 0, 0, 'latestPostsTpl', '', 0, 7, 0, '<li class=\"text-light list-unstyled\">\n  <a href=\"[[~[[+id]]]]\">[[+pagetitle]]</a>\n  [[+publishedon:notempty=`<br /><small><span>Опубликовано - [[+publishedon:strtotime:date=`%d. %m. %Y`]]</span></small> `]]\n</li>', 0, 'a:0:{}', 0, ''),
 (78, 0, 0, 'Header', '', 0, 22, 0, '<div class=\"container-fluid px-0\">\n  <div class=\"header\">\n  <div class=\"row first-container mx-0 d-flex align-items-center\">\n    <div class=\"col-12 col-md-3\">\n      <a class=\"navbar-brand py-md-5 py-3\" href=\"#\">Poecilotheria.ru</a>\n    </div>\n    <div class=\"col-12 col-md-9\">\n      [[!Login? &loginTpl=`lgnLoginTpl` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`1` &logoutResourceId=`1`]]\n      </div>\n  </div>\n  </div>\n \n</div>', 0, NULL, 0, ''),
-(83, 0, 0, 'thumbTpl', '', 0, 22, 0, '<h3 class=\"text-center\"> [[+title]] </h3>\n<!--<img src=\"[[+image:phpthumbof=`w=200&h=200&zc=1`]]\" alt=\"[[+title]]\"/>-->\n[[+description]]', 0, 'a:0:{}', 0, '');
+(83, 0, 0, 'thumbTpl', '', 0, 22, 0, '<h3 class=\"text-center\"> [[+title]] </h3>\n<!--<img src=\"[[+image:phpthumbof=`w=200&h=200&zc=1`]]\" alt=\"[[+title]]\"/>-->\n[[+description]]', 0, 'a:0:{}', 0, ''),
+(84, 1, 0, 'About', '', 0, 22, 0, '<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col-12 text-center my-5\"><h3>[[+h3]]</h3></div>\n    </div>\n   <div class=\"row\">\n    [[!getImageList?\n    &tvname=`About`\n    &tpl=`AboutTPL`]]\n    </div>\n  \n</div>', 0, 'a:1:{s:2:\"h3\";a:7:{s:4:\"name\";s:2:\"h3\";s:4:\"desc\";s:0:\"\";s:4:\"type\";s:9:\"textfield\";s:7:\"options\";a:0:{}s:5:\"value\";s:23:\"Наша команда\";s:7:\"lexicon\";N;s:4:\"area\";s:0:\"\";}}', 0, ''),
+(85, 0, 0, 'AboutTPL', '', 0, 22, 0, '<div class=\"col-md-4 mb-3 d-flex justify-content-center text-center\">\n      <div class=\"photo[[+idx]]\">\n<h6>[[+who]]</h6>\n<p>[[+title]]</p>\n</div>\n    </div>', 0, 'a:0:{}', 0, '');
 
 -- --------------------------------------------------------
 
@@ -4556,7 +4658,8 @@ INSERT INTO `modx_site_tmplvars` (`id`, `source`, `property_preprocess`, `type`,
 (2, 0, 0, 'text', 'blogit.post_main_image_alt', 'Alt text for the main image', 'Fill in a description of the image (used mostly for Google).', 0, 7, 0, '', 2, 'default', '', 'a:0:{}', 'a:3:{s:10:\"allowBlank\";s:4:\"true\";s:9:\"maxLength\";s:0:\"\";s:9:\"minLength\";s:0:\"\";}', 'a:0:{}', 0, ''),
 (3, 0, 0, 'migx', 'cards', '', '', 0, 0, 0, '', 0, 'default', '', 'a:0:{}', 'a:7:{s:7:\"configs\";s:0:\"\";s:8:\"formtabs\";s:245:\"[\n{\"caption\":\"Tab Title\", \"fields\": [\n{\"field\":\"col\",\"caption\":\"col\"},\n{\"field\":\"image\",\"caption\":\"Image\",\"inputTVtype\":\"image\"},\n{\"field\":\"card title\",\"caption\":\"card title\"},\n{\"field\":\"link\",\"caption\":\"link\"},\n{\"field\":\"p\",\"caption\":\"p\"}\n\n]}\n]\";s:7:\"columns\";s:361:\"[\n{\"header\": \"Image\", \"width\": \"50\", \"sortable\": \"false\", \"dataIndex\": \"image\",\"renderer\": \"this.renderImage\"},\n{\"header\": \"col\", \"sortable\": \"true\", \"dataIndex\": \"col\"},\n{\"header\": \"card title\", \"sortable\": \"true\", \"dataIndex\": \"card title\"},\n{\"header\": \"link\", \"sortable\": \"true\", \"dataIndex\": \"link\"},\n{\"header\": \"p\", \"sortable\": \"true\", \"dataIndex\": \"p\"}\n\n]\";s:7:\"btntext\";s:0:\"\";s:10:\"previewurl\";s:0:\"\";s:10:\"jsonvarkey\";s:0:\"\";s:19:\"autoResourceFolders\";s:5:\"false\";}', 'a:0:{}', 0, ''),
 (4, 1, 0, 'migx', 'logintext', '', '', 0, 0, 0, '', 0, 'default', '', 'a:0:{}', 'a:7:{s:7:\"configs\";s:0:\"\";s:8:\"formtabs\";s:253:\"[\n{\"caption\":\"Info\", \"fields\": [\n    {\"field\":\"title\",\"caption\":\"Title\"},\n    {\"field\":\"description\",\"caption\":\"Description\",\"inputTVtype\":\"richtext\"}\n]},\n{\"caption\":\"Image\", \"fields\":[\n    {\"field\":\"image\",\"caption\":\"Image\",\"inputTVtype\":\"image\"}\n]}\n] \";s:7:\"columns\";s:191:\"[\n{\"header\": \"Title\", \"width\": \"160\", \"sortable\": \"true\", \"dataIndex\": \"title\"},\n{\"header\": \"Image\", \"width\": \"50\", \"sortable\": \"false\", \"dataIndex\": \"image\",\"renderer\": \"this.renderImage\"}\n]\";s:7:\"btntext\";s:0:\"\";s:10:\"previewurl\";s:0:\"\";s:10:\"jsonvarkey\";s:0:\"\";s:19:\"autoResourceFolders\";s:5:\"false\";}', 'a:0:{}', 0, ''),
-(5, 1, 0, 'migx', 'items', '', '', 0, 0, 0, '', 0, 'default', '', 'a:0:{}', 'a:7:{s:7:\"configs\";s:0:\"\";s:8:\"formtabs\";s:253:\"[\n{\"caption\":\"Info\", \"fields\": [\n    {\"field\":\"title\",\"caption\":\"Title\"},\n    {\"field\":\"description\",\"caption\":\"Description\",\"inputTVtype\":\"richtext\"}\n]},\n{\"caption\":\"Image\", \"fields\":[\n    {\"field\":\"image\",\"caption\":\"Image\",\"inputTVtype\":\"image\"}\n]}\n] \";s:7:\"columns\";s:191:\"[\n{\"header\": \"Title\", \"width\": \"160\", \"sortable\": \"true\", \"dataIndex\": \"title\"},\n{\"header\": \"Image\", \"width\": \"50\", \"sortable\": \"false\", \"dataIndex\": \"image\",\"renderer\": \"this.renderImage\"}\n]\";s:7:\"btntext\";s:0:\"\";s:10:\"previewurl\";s:0:\"\";s:10:\"jsonvarkey\";s:0:\"\";s:19:\"autoResourceFolders\";s:5:\"false\";}', 'a:0:{}', 0, '');
+(5, 1, 0, 'migx', 'items', '', '', 0, 0, 0, '', 0, 'default', '', 'a:0:{}', 'a:7:{s:7:\"configs\";s:0:\"\";s:8:\"formtabs\";s:253:\"[\n{\"caption\":\"Info\", \"fields\": [\n    {\"field\":\"title\",\"caption\":\"Title\"},\n    {\"field\":\"description\",\"caption\":\"Description\",\"inputTVtype\":\"richtext\"}\n]},\n{\"caption\":\"Image\", \"fields\":[\n    {\"field\":\"image\",\"caption\":\"Image\",\"inputTVtype\":\"image\"}\n]}\n] \";s:7:\"columns\";s:191:\"[\n{\"header\": \"Title\", \"width\": \"160\", \"sortable\": \"true\", \"dataIndex\": \"title\"},\n{\"header\": \"Image\", \"width\": \"50\", \"sortable\": \"false\", \"dataIndex\": \"image\",\"renderer\": \"this.renderImage\"}\n]\";s:7:\"btntext\";s:0:\"\";s:10:\"previewurl\";s:0:\"\";s:10:\"jsonvarkey\";s:0:\"\";s:19:\"autoResourceFolders\";s:5:\"false\";}', 'a:0:{}', 0, ''),
+(6, 1, 0, 'migx', 'About', '', '', 0, 0, 0, '', 0, 'default', '', 'a:0:{}', 'a:7:{s:7:\"configs\";s:0:\"\";s:8:\"formtabs\";s:204:\"[\n{\"caption\":\"Info\", \"fields\": [\n{\"field\":\"title\",\"caption\":\"title\"},\n{\"field\":\"who\",\"caption\":\"who\"}\n]},\n{\"caption\":\"Image\", \"fields\":[\n    {\"field\":\"image\",\"caption\":\"Image\",\"inputTVtype\":\"image\"}\n]}\n] \";s:7:\"columns\";s:158:\"[\n{\"header\": \"title\", \"width\": \"160\", \"sortable\": \"true\", \"dataIndex\": \"title\"},\n{\"header\": \"who\", \"width\": \"160\", \"sortable\": \"true\", \"dataIndex\": \"who\"}\n\n\n]\";s:7:\"btntext\";s:0:\"\";s:10:\"previewurl\";s:0:\"\";s:10:\"jsonvarkey\";s:0:\"\";s:19:\"autoResourceFolders\";s:5:\"false\";}', 'a:0:{}', 0, '');
 
 -- --------------------------------------------------------
 
@@ -4593,7 +4696,8 @@ INSERT INTO `modx_site_tmplvar_contentvalues` (`id`, `tmplvarid`, `contentid`, `
 (3, 3, 1, '[{\"MIGX_id\":\"1\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/1.jpg\",\"card title\":\"card title1\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"2\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/2.jpg\",\"card title\":\"card title 2\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"3\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/3.jpg\",\"card title\":\"card title3\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"4\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/2.jpg\",\"card title\":\"card title4\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"}]'),
 (4, 3, 18, '[{\"MIGX_id\":\"1\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/1.jpg\",\"card title\":\"card title1\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"2\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/2.jpg\",\"card title\":\"card title 2\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"3\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/3.jpg\",\"card title\":\"card title3\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"4\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/2.jpg\",\"card title\":\"card title4\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"}]'),
 (5, 4, 1, '[{\"MIGX_id\":\"1\",\"title\":\"\\u0414\\u043e\\u0431\\u0440\\u043e \\u043f\\u043e\\u0436\\u0430\\u043b\\u043e\\u0432\\u0430\\u0442\\u044c \\u043d\\u0430 \\u0441\\u0430\\u0439\\u0442 \\u043b\\u044e\\u0431\\u0438\\u0442\\u0435\\u043b\\u0435\\u0439 \\u043f\\u0430\\u0443\\u043a\\u043e\\u0432 \\u0440\\u043e\\u0434\\u0430 Poecilotheria.\",\"description\":\"<p class=\\\"text-center\\\">\\u0411\\u043b\\u0430\\u0433\\u043e\\u0434\\u0430\\u0440\\u0438\\u043c \\u0437\\u0430 \\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u044e \\u043d\\u0430 \\u043d\\u0430\\u0448\\u0435\\u043c \\u0441\\u0430\\u0439\\u0442\\u0435.<\\/p>\",\"image\":\"\"}]'),
-(6, 5, 1, '[{\"MIGX_id\":\"1\",\"title\":\"Добро пожаловать на сайт любителей пауков рода Poecilotheria.\",\"description\":\"<p>После прохождения регистрации вы сможете прочесть информацию о каждом виде рода, посмотреть качественные фотографии пауков в галерее, задать вопросы и пообщаться с другими пользователями на форуме, опубликовать свою статью в специальном разделе, разместить объявление о покупке или продаже &nbsp;животных.</p>\\n<p>Мы надеемся, вам будет интересно и познавательно на нашем сайте, и мы с радостью выслушаем ваши пожелания о работе сервиса.</p>\\n<p>&nbsp;Для отправки сообщений, отзывов и пожеланий, вы можете воспользоваться формой в низу страницы.</p>\",\"image\":\"\"}]');
+(6, 5, 1, '[{\"MIGX_id\":\"1\",\"title\":\"\\u0414\\u043e\\u0431\\u0440\\u043e \\u043f\\u043e\\u0436\\u0430\\u043b\\u043e\\u0432\\u0430\\u0442\\u044c \\u043d\\u0430 \\u0441\\u0430\\u0439\\u0442 \\u043b\\u044e\\u0431\\u0438\\u0442\\u0435\\u043b\\u0435\\u0439 \\u043f\\u0430\\u0443\\u043a\\u043e\\u0432 \\u0440\\u043e\\u0434\\u0430 Poecilotheria.\",\"description\":\"<p>\\u041f\\u043e\\u0441\\u043b\\u0435 \\u043f\\u0440\\u043e\\u0445\\u043e\\u0436\\u0434\\u0435\\u043d\\u0438\\u044f \\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u0438 \\u0432\\u044b \\u0441\\u043c\\u043e\\u0436\\u0435\\u0442\\u0435 \\u043f\\u0440\\u043e\\u0447\\u0435\\u0441\\u0442\\u044c \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u044e \\u043e \\u043a\\u0430\\u0436\\u0434\\u043e\\u043c \\u0432\\u0438\\u0434\\u0435 \\u0440\\u043e\\u0434\\u0430, \\u043f\\u043e\\u0441\\u043c\\u043e\\u0442\\u0440\\u0435\\u0442\\u044c \\u043a\\u0430\\u0447\\u0435\\u0441\\u0442\\u0432\\u0435\\u043d\\u043d\\u044b\\u0435 \\u0444\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u0438 \\u043f\\u0430\\u0443\\u043a\\u043e\\u0432 \\u0432 \\u0433\\u0430\\u043b\\u0435\\u0440\\u0435\\u0435, \\u0437\\u0430\\u0434\\u0430\\u0442\\u044c \\u0432\\u043e\\u043f\\u0440\\u043e\\u0441\\u044b \\u0438 \\u043f\\u043e\\u043e\\u0431\\u0449\\u0430\\u0442\\u044c\\u0441\\u044f \\u0441 \\u0434\\u0440\\u0443\\u0433\\u0438\\u043c\\u0438 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044f\\u043c\\u0438 \\u043d\\u0430 \\u0444\\u043e\\u0440\\u0443\\u043c\\u0435, \\u043e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u0442\\u044c \\u0441\\u0432\\u043e\\u044e \\u0441\\u0442\\u0430\\u0442\\u044c\\u044e \\u0432 \\u0441\\u043f\\u0435\\u0446\\u0438\\u0430\\u043b\\u044c\\u043d\\u043e\\u043c \\u0440\\u0430\\u0437\\u0434\\u0435\\u043b\\u0435, \\u0440\\u0430\\u0437\\u043c\\u0435\\u0441\\u0442\\u0438\\u0442\\u044c \\u043e\\u0431\\u044a\\u044f\\u0432\\u043b\\u0435\\u043d\\u0438\\u0435 \\u043e \\u043f\\u043e\\u043a\\u0443\\u043f\\u043a\\u0435 \\u0438\\u043b\\u0438 \\u043f\\u0440\\u043e\\u0434\\u0430\\u0436\\u0435 &nbsp;\\u0436\\u0438\\u0432\\u043e\\u0442\\u043d\\u044b\\u0445.<\\/p>\\n<p>\\u041c\\u044b \\u043d\\u0430\\u0434\\u0435\\u0435\\u043c\\u0441\\u044f, \\u0432\\u0430\\u043c \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0438\\u043d\\u0442\\u0435\\u0440\\u0435\\u0441\\u043d\\u043e \\u0438 \\u043f\\u043e\\u0437\\u043d\\u0430\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\\u043d\\u043e \\u043d\\u0430 \\u043d\\u0430\\u0448\\u0435\\u043c \\u0441\\u0430\\u0439\\u0442\\u0435, \\u0438 \\u043c\\u044b \\u0441 \\u0440\\u0430\\u0434\\u043e\\u0441\\u0442\\u044c\\u044e \\u0432\\u044b\\u0441\\u043b\\u0443\\u0448\\u0430\\u0435\\u043c \\u0432\\u0430\\u0448\\u0438 \\u043f\\u043e\\u0436\\u0435\\u043b\\u0430\\u043d\\u0438\\u044f \\u043e \\u0440\\u0430\\u0431\\u043e\\u0442\\u0435 \\u0441\\u0435\\u0440\\u0432\\u0438\\u0441\\u0430.<\\/p>\\n<p>&nbsp;\\u0414\\u043b\\u044f \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043a\\u0438 \\u0441\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u0439, \\u043e\\u0442\\u0437\\u044b\\u0432\\u043e\\u0432 \\u0438 \\u043f\\u043e\\u0436\\u0435\\u043b\\u0430\\u043d\\u0438\\u0439, \\u0432\\u044b \\u043c\\u043e\\u0436\\u0435\\u0442\\u0435 \\u0432\\u043e\\u0441\\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u044c\\u0441\\u044f \\u0444\\u043e\\u0440\\u043c\\u043e\\u0439 \\u0432 \\u043d\\u0438\\u0437\\u0443 \\u0441\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u044b.<\\/p>\",\"image\":\"\"}]'),
+(7, 6, 1, '[{\"MIGX_id\":\"1\",\"title\":\"Создатель\",\"who\":\"Платонов Станислав\",\"image\":\"assets/templates/Stas/app/img/platonov.jpg\"},{\"MIGX_id\":\"2\",\"title\":\"Программист\",\"who\":\"Кайдалов Андрей\",\"image\":\"assets/templates/Stas/app/img/Kaidalov.jpg\"},{\"MIGX_id\":\"3\",\"title\":\"Редактор\",\"who\":\"Полякова Елена\",\"image\":\"assets/templates/Stas/app/img/Polyakova.jpg\"}]');
 
 -- --------------------------------------------------------
 
@@ -4615,7 +4719,8 @@ INSERT INTO `modx_site_tmplvar_templates` (`tmplvarid`, `templateid`, `rank`) VA
 (1, 3, 0),
 (2, 3, 0),
 (4, 1, 0),
-(5, 1, 0);
+(5, 1, 0),
+(6, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -5498,7 +5603,7 @@ CREATE TABLE `modx_user_attributes` (
 --
 
 INSERT INTO `modx_user_attributes` (`id`, `internalKey`, `fullname`, `email`, `phone`, `mobilephone`, `blocked`, `blockeduntil`, `blockedafter`, `logincount`, `lastlogin`, `thislogin`, `failedlogincount`, `sessionid`, `dob`, `gender`, `address`, `country`, `city`, `state`, `zip`, `fax`, `photo`, `comment`, `website`, `extended`) VALUES
-(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 71, 1518200681, 1518200771, 0, 'g28gimsd6n5qfukd7rbgamjm94', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
+(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 75, 1518448126, 1518448383, 0, '0pc76pjea0jgfmooqu2bd9n6f3', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
 (2, 2, '', 'stan1978@gmail.com', '', '', 0, 0, 0, 3, 1507027219, 1516255911, 0, '9lkho41cebf6ndm6o7a5ovqgg0', 0, 1, '', '', 'Тверь', '', '19000', '', '', '', '', '[]');
 
 -- --------------------------------------------------------
@@ -6675,7 +6780,7 @@ ALTER TABLE `modx_lexicon_entries`
 -- AUTO_INCREMENT для таблицы `modx_manager_log`
 --
 ALTER TABLE `modx_manager_log`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2134;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2236;
 
 --
 -- AUTO_INCREMENT для таблицы `modx_media_sources`
@@ -6765,7 +6870,7 @@ ALTER TABLE `modx_site_content`
 -- AUTO_INCREMENT для таблицы `modx_site_htmlsnippets`
 --
 ALTER TABLE `modx_site_htmlsnippets`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=84;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=86;
 
 --
 -- AUTO_INCREMENT для таблицы `modx_site_plugins`
@@ -6789,7 +6894,7 @@ ALTER TABLE `modx_site_templates`
 -- AUTO_INCREMENT для таблицы `modx_site_tmplvars`
 --
 ALTER TABLE `modx_site_tmplvars`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT для таблицы `modx_site_tmplvar_access`
@@ -6801,7 +6906,7 @@ ALTER TABLE `modx_site_tmplvar_access`
 -- AUTO_INCREMENT для таблицы `modx_site_tmplvar_contentvalues`
 --
 ALTER TABLE `modx_site_tmplvar_contentvalues`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT для таблицы `modx_tagger_groups`

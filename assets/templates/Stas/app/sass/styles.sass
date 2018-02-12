@@ -73,3 +73,68 @@ body
 	+css-triangle(#cacaca, right, 10px)
 .arrow-left
 	+css-triangle(#cacaca, left, 10px)
+.photo1, .photo2, .photo3 
+	position: relative
+	z-index: 1
+	&:hover
+		background-color: $link-color
+		background-image: none
+		z-index: 200
+		position: relative
+		border-radius: 50%
+
+		h6
+			padding-top: 50%
+			opacity: 1
+			color: #192626
+			transition: all .5s ease
+		p
+			opacity: 1
+			color: #192626
+			transition: all .5s ease
+			
+	&::after
+		z-index: 1
+		display: block
+		content: ""
+		width: 200px
+		height: 266px
+		position: absolute
+		top: 0
+		left: 0
+		text-align: center
+		opacity: 0
+		
+	h6, p
+		opacity: 0
+
+.photo1
+	background-image: url(../img/platonov.jpg) 
+	background-size: 200px 266px
+	width: 200px
+	height: 266px
+	margin: 0 auto
+	position: relative
+	z-index: 1
+	transition: all 1s ease
+	box-shadow: -2px 2px 11px 4px rgba(0, 0, 0, 0.5)
+.photo2
+	background-image: url(../img/Kaidalov.jpg) 
+	background-size: 200px 266px
+	width: 200px
+	height: 266px
+	margin: 0 auto
+	position: relative
+	z-index: 1
+	transition: all 1s ease
+	box-shadow: -2px 2px 11px 4px rgba(0, 0, 0, 0.5)
+.photo3
+	background-image: url(../img/Polyakova.jpg) 
+	background-size: 200px 266px
+	width: 200px
+	height: 266px
+	margin: 0 auto
+	position: relative
+	z-index: 1
+	transition: all 1s ease
+	box-shadow: -2px 2px 11px 4px rgba(0, 0, 0, 0.5)
